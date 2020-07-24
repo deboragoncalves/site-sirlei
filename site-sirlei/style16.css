@@ -1,0 +1,670 @@
+* {
+margin: 0;
+padding: 0;
+font-family: "Ink Free", Tahoma;
+}
+
+@font-face {
+    font-family: "Ink Free";
+    src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
+    src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+}
+
+html {
+height: 100%;
+margin: 0;
+}
+
+body {
+background-color: #D79B9B;
+color: black;
+height: 100%;
+margin: 0;
+}
+
+header {
+position: fixed; 
+top: 0; 
+left: 0;
+width: 100%; 
+background-color: white; 
+}
+
+#logo img {
+    width: 300px;
+    height: 200px;
+}
+
+.menu {
+    margin-top: -100px;
+    width: 1100px;
+    height: 200px;
+    position: fixed; /* mudou */
+    right: 0; /* mudou */
+    font-size: 20px;
+}
+
+    .menu ul {
+        list-style: none;
+        position: relative;
+    }
+
+        .menu ul li {
+            text-align: center;
+            padding-right: 50px;
+            float: left;
+            cursor: pointer;
+        }
+
+    .menu a {
+        padding: 8px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+
+#terapias {
+    position: absolute;
+    display: none;
+    background-color: white;
+    color: black;
+    max-width: 18%;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.menu ul li ul li {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+    .menu ul li ul li a {
+        background-color: white;
+        color: black;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+
+.menu a:hover {
+    background-color: #D79B9B;
+    color: white;
+    width: 100%;
+}
+
+label[for="bt_menu"] {
+background-color: white;
+color: #C14242;
+font-size: 30px;
+cursor: pointer;
+}
+
+#bt_menu {
+display: none;
+}
+
+label[for="bt_menu"] {
+display: none;
+}
+
+.todo {
+min-height: 100%;
+}
+
+.todo-dentro {
+padding-bottom: 80px;
+}
+
+#fotocontato img {
+margin-top: 200px;
+}
+
+#titulo {
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#titulo h2 {
+margin: 0;
+font-size: 60px;
+color: black;
+}
+
+#nome h3 {
+text-align: center;
+margin: 0;
+font-size: 35px;
+color: black;
+}
+
+#informacoes {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 80px;
+}
+
+#informacoes h4 {
+margin: 0;
+font-size: 25px;
+text-align: center;
+float: left;
+}
+
+#informacoes a {
+text-decoration: none;
+color: black;
+}
+
+#informacoes img {
+width: 35px;
+height: 35px;
+float: right;
+padding-left: 10px;
+}
+
+.email, .telefone {
+display: flex;
+flex-direction: row;
+padding: 7px;
+}
+
+#redes-sociais {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-top: 20px;
+}
+
+#facebook img {
+padding-right: 5px;
+}
+
+.whatsapp {
+position: fixed;
+bottom: 10px;
+right: 10px;
+z-index: 999;
+}
+
+.footer {
+margin-top: -60px;
+width: 100%;   /* Largura estende por toda página da div */
+height: 60px;   /* Altura da div */
+}
+
+.colunafooter {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.rodapetexto {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 18px; 
+font-family: Calibri;
+width: 70%;
+float: left;
+height: 60px;
+margin: 0;
+background-color: rgba(252, 252, 252, 0.5);
+}
+
+.rodapetexto p {
+font-family: Calibri;
+}
+
+.rodapeimg {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+float: right;
+width: 30%;
+margin: 0;
+height: 60px;
+background-color: rgba(252, 252, 252, 0.5);
+}
+
+#img-1 img, #img-2 img {
+float: left;
+margin: 2px;
+width: 43px;
+height: 43px;
+}
+
+@media(min-width: 1201px) and (max-width: 1310px) {
+
+.menu { 
+margin-top: -90px;
+}
+
+.menu ul li {
+text-align: center;
+padding-right: 0;
+padding-left: 55px;
+float: left; 
+}
+
+#logo img {
+width: 250px;
+height: 150px;
+margin-left: -30px;
+}
+
+}
+
+@media(max-width: 1200px) {
+
+    label[for="bt_menu"] {
+        margin-top: -100px;
+        display: block;
+        float: right;
+        z-index: 1000000000000000000000;
+        padding-right: 20px;
+        color: #C14242;
+    }
+
+    #bt_menu:checked ~ label[for="bt_menu"] {
+        padding-top: 20px;
+        background-color: white;
+        color: #C14242;
+        position: fixed;
+        right: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: -151px;
+        font-size: 30px;
+    }
+
+    #bt_menu:checked ~ .menu {
+        visibility: visible;
+        padding-top: 20px;
+        margin-top: -150px;
+        float: right;
+        -webkit-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+        -moz-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+        -o-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+        transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+    }
+
+    #bt_menu:checked ~ .whatsapp {
+        display: none;
+    }
+
+    #logo {
+        margin-right: 100px;
+    }
+
+        #logo img {
+            width: 250px;
+            height: 150px;
+        }
+
+    .menu {
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        z-index: 999;
+        background-color: white;
+        font-size: 20px;
+    }
+
+        .menu ul {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+        }
+
+            .menu ul li {
+                width: 100%;
+                z-index: 999;
+                background-color: white;
+            }
+
+            .menu ul ul {
+                min-width: 100%;
+                padding-right: 0px;
+                padding-left: 0px;
+                margin: 0;
+                text-align: center;
+            }
+
+    #terapias {
+        display: none;
+    }
+
+    .menu ul ul li {
+        min-width: 100%;
+        height: 30px;
+        color: black;
+        font-size: 20px;
+        background-color: #D79B9B;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        margin: 0;
+    }
+
+        .menu ul ul li a {
+            padding-top: 5px;
+            padding-bottom: 8px;
+        }
+}
+
+@media(min-width: 980px) and (max-width: 1310px) {
+
+    @font-face {
+        font-family: "Ink Free";
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+    }
+
+#fotocontato img {
+margin-top: 150px; 
+}
+
+}
+
+@media(min-width: 701px) and (max-width: 979px) {
+
+    @font-face {
+        font-family: "Ink Free";
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+    }
+
+#fotocontato img {
+margin-top: 150px; 
+}
+
+.todo-dentro {
+padding-bottom: 80px;
+}
+
+.footer {
+margin-top: -60px;
+clear: both;
+float: none;
+height: 60px;
+width: 100%;
+}
+
+.colunafooter {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.rodapetexto {
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 18px; 
+width: 100%;
+vertical-align: middle;
+margin: 0;
+height: 35px;
+}
+
+.rodapetexto p {
+font-family: Calibri;
+text-align: justify;
+padding-top: 5px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.rodapeimg {
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin: 0;
+}
+
+}
+
+@media(max-width: 700px) {
+
+    @font-face {
+        font-family: "Ink Free";
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+    }
+
+#fotocontato img {
+margin-top: 150px; 
+}
+
+.todo-dentro {
+padding-bottom: 100px;
+}
+
+.footer {
+margin-top: -75px;
+clear: both;
+float: none;
+height: 75px;
+width: 100%;
+}
+
+.colunafooter {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.rodapetexto {
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 18px; 
+font-family: Calibri;
+width: 100%;
+vertical-align: middle;
+margin: 0;
+height: 45px;
+}
+
+.rodapetexto p {
+font-family: Calibri;
+text-align: justify;
+padding-top: 10px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.rodapeimg {
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin: 0;
+}
+
+}
+
+@media(max-width: 480px) {
+
+    @font-face {
+        font-family: "Ink Free";
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+    }
+
+#fotocontato img {
+margin-top: 150px;
+}
+
+#titulo {
+height: 80px;
+}
+
+#titulo h2 {
+font-size: 50px;
+}
+
+.todo-dentro {
+padding-bottom: 130px;
+}
+
+.footer {
+margin-top: -110px;
+clear: both;
+float: none;
+height: 110px;
+width: 100%;
+}
+
+.colunafooter {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.rodapetexto {
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 18px; 
+font-family: Calibri;
+width: 100%;
+vertical-align: middle;
+margin: 0;
+height: 70px;
+}
+
+.rodapetexto p {
+font-family: Calibri;
+text-align: justify;
+padding-top: 5px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.rodapeimg {
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin: 0;
+}
+
+}
+
+@media(max-width: 330px) {
+
+    @font-face {
+        font-family: "Ink Free";
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
+        src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+    }
+
+#informacoes h4 {
+font-size: 20px;
+}
+
+.todo-dentro {
+padding-bottom: 160px;
+}
+
+.footer {
+clear: both;
+float: none;
+height: 140px;
+margin-top: -140px;
+width: 100%;
+}
+
+.colunafooter {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.rodapetexto {
+margin: 0;
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 18px; 
+font-family: Calibri;
+width: 100%;
+vertical-align: middle;
+height: 110px;
+}
+
+.rodapetexto p {
+font-family: Calibri;
+text-align: justify;
+padding-top: 5px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.rodapeimg {
+margin: 0;
+clear: both;
+float: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+    .whatsapp {
+        top: 84%;
+        left: 77%;
+    }
+}
