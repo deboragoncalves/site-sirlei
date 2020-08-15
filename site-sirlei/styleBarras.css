@@ -28,7 +28,7 @@ width: 300px;
 height: 200px;
 }
 
-.menu {
+#menu {
     margin-top: -100px;
     width: 1100px;
     height: 200px;
@@ -37,19 +37,19 @@ height: 200px;
     font-size: 20px;
 }
 
-    .menu ul {
+    #menu ul {
         list-style: none;
         position: relative;
     }
 
-        .menu ul li {
+        #menu ul li {
             text-align: center;
             padding-right: 50px;
             float: left;
             cursor: pointer;
         }
 
-    .menu a {
+    #menu a {
         padding: 8px;
         display: block;
         text-decoration: none;
@@ -70,7 +70,7 @@ height: 200px;
     cursor: pointer;
 }
 
-.menu ul li ul li {
+#menu ul li ul li {
     background-color: white;
     color: black;
     width: 100%;
@@ -79,7 +79,7 @@ height: 200px;
     margin: 0px;
 }
 
-    .menu ul li ul li a {
+    #menu ul li ul li a {
         background-color: white;
         color: black;
         width: 100%;
@@ -88,24 +88,25 @@ height: 200px;
         margin: 0px;
     }
 
-.menu a:hover {
+#menu a:hover {
     background-color: #D79B9B;
     color: white;
     width: 100%;
 }
 
 label[for="bt_menu"] {
-background-color: white;
-color: #C14242;
-font-size: 30px;
-cursor: pointer;
+    background-color: white;
+    color: #C14242;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#imagemBarras {
+    width: 100%;
 }
 
 #bt_menu {
-display: none;
-}
-
-label[for="bt_menu"] {
 display: none;
 }
 
@@ -143,12 +144,12 @@ font-size: 20px;
 text-align: center;
 } */
 
-#perguntas h2 {
-font-size: 28px;
-margin-top: 15px;
-max-width: 85%;
-margin-left: auto;
-margin-right: auto;
+#tituloPerguntas h2 {
+    font-size: 28px;
+    margin-top: 15px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3 {
@@ -189,26 +190,11 @@ display: none;
 display: none;
 }
 
-#perguntas1 input:checked ~ #resposta1 {
-display: block;
-}
-
-#perguntas2 input:checked ~ #resposta2 {
-display: block;
-}
-
-#perguntas3 input:checked ~ #resposta3 {
-display: block;
-}
-
 #resposta1, #resposta2, #resposta3 {
-display: none;
-}
-
-#resposta1, #resposta2, #resposta3 {
-margin: 0 15px;
-background-color: rgba(252, 252, 252, 0.5);
-border-radius: 12px;
+    display: none;
+    margin: 0 15px;
+    background-color: rgba(252, 252, 252, 0.5);
+    border-radius: 12px;
 }
 
 #resposta1 p, #resposta2 p, #resposta3 p {
@@ -221,11 +207,13 @@ font-family: Calibri;
 padding: 10px 0;
 }
 
-.whatsapp {
-position: fixed;
-bottom: 10px;
-right: 10px;
-z-index: 999;
+#whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    width: 60px; 
+    height: 60px;
 }
 
 #rodape {
@@ -280,11 +268,11 @@ height: 43px;
 
 @media(min-width: 1201px) and (max-width: 1310px) {
 
-.menu { 
+#menu { 
 margin-top: -90px;
 }
 
-.menu ul li {
+#menu ul li {
 text-align: center;
 padding-right: 0;
 padding-left: 55px;
@@ -346,7 +334,7 @@ margin-left: -30px;
             height: 150px;
         }
 
-    .menu {
+    #menu {
         width: 100%;
         height: 100%;
         visibility: hidden;
@@ -355,19 +343,19 @@ margin-left: -30px;
         font-size: 20px;
     }
 
-        .menu ul {
+        #menu ul {
             width: 100%;
             height: 100%;
             background-color: white;
         }
 
-            .menu ul li {
+            #menu ul li {
                 width: 100%;
                 z-index: 999;
                 background-color: white;
             }
 
-            .menu ul ul {
+            #menu ul ul {
                 min-width: 100%;
                 padding-right: 0px;
                 padding-left: 0px;
@@ -379,7 +367,7 @@ margin-left: -30px;
         display: none;
     }
 
-    .menu ul ul li {
+    #menu ul ul li {
         min-width: 100%;
         height: 30px;
         color: black;
@@ -392,7 +380,7 @@ margin-left: -30px;
         margin: 0;
     }
 
-        .menu ul ul li a {
+        #menu ul ul li a {
             padding-top: 5px;
             padding-bottom: 8px;
         }
@@ -630,7 +618,7 @@ text-align: justify;
         height: 40px;
     }
 
-    .whatsapp {
+    #whatsapp {
         top: 84%;
         left: 77%;
     }

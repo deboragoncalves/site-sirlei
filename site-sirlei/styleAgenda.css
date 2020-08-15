@@ -30,12 +30,16 @@ width: 100%;
 background-color: white; 
 }
 
+#imagemAgenda {
+    width: 100%;
+}
+
 #logo img {
     width: 300px;
     height: 200px;
 }
 
-.menu {
+#menu {
     margin-top: -100px;
     width: 1100px;
     height: 200px;
@@ -44,19 +48,19 @@ background-color: white;
     font-size: 20px;
 }
 
-    .menu ul {
+    #menu ul {
         list-style: none;
         position: relative;
     }
 
-        .menu ul li {
+        #menu ul li {
             text-align: center;
             padding-right: 50px;
             float: left;
             cursor: pointer;
         }
 
-    .menu a {
+    #menu a {
         padding: 8px;
         display: block;
         text-decoration: none;
@@ -77,7 +81,16 @@ background-color: white;
         cursor: pointer;
     }
 
-    .menu ul li ul li {
+#menu ul li ul li {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+    #menu ul li ul li a {
         background-color: white;
         color: black;
         width: 100%;
@@ -86,41 +99,29 @@ background-color: white;
         margin: 0px;
     }
 
-        .menu ul li ul li a {
-            background-color: white;
-            color: black;
-            width: 100%;
-            padding-left: 0px;
-            padding-right: 0px;
-            margin: 0px;
-        }
+#menu a:hover {
+    background-color: #D79B9B;
+    color: white;
+    width: 100%;
+}
 
-         .menu a:hover {
-        background-color: #D79B9B;
-        color: white;
-        width: 100%;
-    }
-
-label[for="bt_menu"] {
-background-color: white;
-color: #C14242;
-font-size: 30px;
-cursor: pointer;
+#labelMenu {
+    background-color: white;
+    color: #C14242;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
 }
 
 #bt_menu {
 display: none;
 }
 
-label[for="bt_menu"] {
-display: none;
-}
-
-.todo {
+#todo {
 min-height: 100%;
 }
 
-.todo-dentro {
+#todo-dentro {
 padding-bottom: 80px;
 }
 
@@ -161,32 +162,34 @@ text-align: center;
 color: black;
 }
 
-#agenda h4 a {
+#agenda a {
 color: black;
 text-decoration: none;
 }
 
-.whatsapp {
-position: fixed;
-bottom: 10px;
-right: 10px;
-z-index: 999;
+#whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    width: 60px; 
+    height: 60px;
 }
 
-.footer {
+#footer {
 margin-top: -60px;
 width: 100%;   /* Largura estende por toda página da div */
 height: 60px;   /* Altura da div */
 }
 
-.colunafooter {
+#colunafooter {
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
 }
 
-.rodapetexto {
+#rodapetexto {
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -201,11 +204,11 @@ margin: 0;
 background-color: rgba(252, 252, 252, 0.5);
 }
 
-.rodapetexto p {
+#rodapetexto p {
 font-family: Calibri;
 }
 
-.rodapeimg {
+#rodapeimg {
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -226,17 +229,17 @@ height: 43px;
 
 @media(min-width: 1201px) and (max-width: 1310px) {
 
-.menu { 
-margin-top: -90px;
-}
+    #menu {
+        margin-top: -90px;
+    }
 
-.menu ul li {
-text-align: center;
-padding-right: 0;
-padding-left: 55px;
-float: left; 
-cursor: pointer;
-}
+        #menu ul li {
+            text-align: center;
+            padding-right: 0;
+            padding-left: 55px;
+            float: left;
+            cursor: pointer;
+        }
 
 #logo img {
 width: 250px;
@@ -248,39 +251,39 @@ margin-left: -30px;
 
 @media(max-width: 1200px) {
 
-label[for="bt_menu"] {
-margin-top: -100px;
-display: block;
-float: right;
-z-index: 1000000000000000000000;
-padding-right: 20px;
-color: #C14242;
-}
+    #labelMenu {
+        margin-top: -100px;
+        float: right;
+        z-index: 1000000000000000000000;
+        padding-right: 20px;
+        color: #C14242;
+        display: block;
+    }
 
-#bt_menu:checked ~ label[for="bt_menu"] {
-    padding-top: 20px;
-background-color: white;
-color: #C14242;
-position: fixed;
-right: 0;
-padding-right: 15px;
-padding-left: 15px;
-margin-top: -151px;
-font-size: 30px;
-}
+    #bt_menu:checked ~ #labelMenu {
+        padding-top: 20px;
+        background-color: white;
+        color: #C14242;
+        position: fixed;
+        right: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: -151px;
+        font-size: 30px;
+    }
 
-#bt_menu:checked ~ .menu { 
-visibility: visible;
-padding-top: 20px;
-margin-top: -150px;
-float: right;
--webkit-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
--moz-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
--o-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
-}
+    #bt_menu:checked ~ #menu {
+        padding-top: 20px;
+        margin-top: -150px;
+        display: block;
+        float: right;
+        -webkit-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+        -moz-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+        -o-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+        transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
+    }
 
-#bt_menu:checked ~ .whatsapp {
+#bt_menu:checked ~ #whatsapp {
 display: none;
 }
 
@@ -293,40 +296,40 @@ width: 250px;
 height: 150px;
 }
 
-.menu {
-width: 100%;
-height: 100%;
-visibility: hidden;
-z-index: 999;
-background-color: white;
-font-size: 20px;
-}
-
-.menu ul {
-width: 100%;
-height: 100%;
-background-color: white;
-}
-
-.menu ul li {
-width: 100%;
-z-index: 999;
-background-color: white;
-}
-
-    .menu ul ul {
-        min-width: 100%;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin: 0;
-        text-align: center;
+    #menu {
+        width: 100%;
+        height: 100%;
+        display: none;
+        z-index: 999;
+        background-color: white;
+        font-size: 20px;
     }
+
+        #menu ul {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+        }
+
+            #menu ul li {
+                width: 100%;
+                z-index: 999;
+                background-color: white;
+            }
+
+            #menu ul ul {
+                min-width: 100%;
+                padding-right: 0px;
+                padding-left: 0px;
+                margin: 0;
+                text-align: center;
+            }
 
     #terapias {
         display: none;
     }
 
-    .menu ul ul li {
+    #menu ul ul li {
         min-width: 100%;
         height: 30px;
         color: black;
@@ -339,10 +342,10 @@ background-color: white;
         margin: 0;
     }
 
-.menu ul ul li a {
-padding-top: 5px;
-padding-bottom: 8px;
-}
+    #menu ul ul li a {
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
 
 }
 
@@ -372,11 +375,11 @@ margin-top: 150px;
 margin-top: 150px; 
 }
 
-.todo-dentro {
+#todo-dentro {
 padding-bottom: 80px;
 }
 
-.footer {
+#footer {
 margin-top: -60px;
 clear: both;
 float: none;
@@ -384,14 +387,14 @@ height: 60px;
 width: 100%;
 }
 
-.colunafooter {
+#colunafooter {
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
-.rodapetexto {
+#rodapetexto {
 clear: both;
 float: none;
 display: flex;
@@ -406,7 +409,7 @@ margin: 0;
 height: 35px;
 }
 
-.rodapetexto p {
+#rodapetexto p {
 font-family: Calibri;
 text-align: justify;
 padding-top: 5px;
@@ -414,7 +417,7 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
-.rodapeimg {
+#rodapeimg {
 clear: both;
 float: none;
 display: flex;
@@ -447,11 +450,11 @@ font-size: 35px;
 font-size: 25px;
 }
 
-.todo-dentro {
+#todo-dentro {
 padding-bottom: 100px;
 }
 
-.footer {
+#footer {
 margin-top: -75px;
 clear: both;
 float: none;
@@ -459,14 +462,14 @@ height: 75px;
 width: 100%;
 }
 
-.colunafooter {
+#colunafooter {
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
-.rodapetexto {
+#rodapetexto {
 clear: both;
 float: none;
 display: flex;
@@ -482,7 +485,7 @@ margin: 0;
 height: 45px;
 }
 
-.rodapetexto p {
+#rodapetexto p {
 font-family: Calibri;
 text-align: justify;
 padding-top: 10px;
@@ -490,7 +493,7 @@ padding-left: 30px;
 padding-right: 30px;
 }
 
-.rodapeimg {
+#rodapeimg {
 clear: both;
 float: none;
 display: flex;
@@ -531,11 +534,11 @@ font-size: 30px;
 font-size: 20px;
 }
 
-.todo-dentro {
+#todo-dentro {
 padding-bottom: 130px;
 }
 
-.footer {
+#footer {
 margin-top: -110px;
 clear: both;
 float: none;
@@ -543,14 +546,14 @@ height: 110px;
 width: 100%;
 }
 
-.colunafooter {
+#colunafooter {
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
-.rodapetexto {
+#rodapetexto {
 clear: both;
 float: none;
 display: flex;
@@ -566,7 +569,7 @@ margin: 0;
 height: 70px;
 }
 
-.rodapetexto p {
+#rodapetexto p {
 font-family: Calibri;
 text-align: justify;
 padding-top: 5px;
@@ -574,7 +577,7 @@ padding-left: 30px;
 padding-right: 30px;
 }
 
-.rodapeimg {
+#rodapeimg {
 clear: both;
 float: none;
 display: flex;
@@ -603,11 +606,11 @@ font-size: 30px;
 font-size: 20px;
 }
 
-.todo-dentro {
+#todo-dentro {
 padding-bottom: 160px;
 }
 
-.footer {
+#footer {
 clear: both;
 float: none;
 height: 140px;
@@ -615,14 +618,14 @@ margin-top: -140px;
 width: 100%;
 }
 
-.colunafooter {
+#colunafooter {
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
-.rodapetexto {
+#rodapetexto {
 margin: 0;
 clear: both;
 float: none;
@@ -638,7 +641,7 @@ vertical-align: middle;
 height: 110px;
 }
 
-.rodapetexto p {
+#rodapetexto p {
 font-family: Calibri;
 text-align: justify;
 padding-top: 5px;
@@ -646,7 +649,7 @@ padding-left: 30px;
 padding-right: 30px;
 }
 
-.rodapeimg {
+#rodapeimg {
 margin: 0;
 clear: both;
 float: none;
@@ -657,7 +660,7 @@ justify-content: center;
 width: 100%;
 }
 
-    .whatsapp {
+    #whatsapp {
         top: 84%;
         left: 77%;
     }
