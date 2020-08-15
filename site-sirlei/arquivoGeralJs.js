@@ -11,8 +11,8 @@ function mostrarEsconderTerapias() {
 }
 
 /*
- * Div por class - Barras OK
+ * Div por class
  * Perguntas JS
- * Imagens online - OK, menos Logo
- * Tirar os style no html - OK
+ * Imagens online 
+ * Tirar os style no html 
 */
