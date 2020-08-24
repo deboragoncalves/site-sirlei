@@ -1,23 +1,23 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<link rel="stylesheet" type="text/css" href="styleBarras.css" />
+<link rel="stylesheet" type="text/css" href="css/styleBarras.css" />
 <meta charset="UTF-8">
 <meta name="keywords" content="thetahealing, ginecologia natural, terapias holísticas, terapeuta, amor próprio, palestras, útero, saúde integral da mulher" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript" src="barrasJs.js"></script>
+<script type="text/javascript" src="js/barrasJs.js"></script>
 </head>
 
 <body>
 
 	<header>
 		<div id="logo"><a href="index.html"><img src="logo.png"></a></div>
-		<input type="checkbox" id="bt_menu">
+		<input type="checkbox" id="bt_menu" onclick="mostrarEsconderMenu()">
 		<label for="bt_menu" id="labelMenu">&#9776;</label>
 		<nav id="menu">
 			<ul>
 				<li><a href="historia.html">Minha história</a></li>
-				<li onclick="mostrarEsconderTerapias()">
+				<li id="linhaTerapias" onclick="mostrarEsconderTerapias()">
 					<a>Terapias</a>
 					<ul id="terapias">
 						<li><a href="ginecologia.html">Ginecologia Natural</a></li>
