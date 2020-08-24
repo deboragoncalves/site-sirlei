@@ -225,6 +225,9 @@ width: 43px;
 height: 43px;
 }
 
+#primeiroTituloColunaD {
+}
+
 @media(min-width: 1201px) and (max-width: 1310px) {
 
     #menu {
