@@ -1,37 +1,22 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" type="text/css" href="style8.css">
+    <link rel="stylesheet" type="text/css" href="css/styleFlorais.css">
     <meta charset="UTF-8">
-<meta name="keywords" content="thetahealing, ginecologia natural, terapias holísticas, terapeuta, amor próprio, palestras, útero, saúde integral da mulher" />
+    <meta name="keywords" content="thetahealing, ginecologia natural, terapias holísticas, terapeuta, amor próprio, palestras, útero, saúde integral da mulher" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <script>
-
-    function mostrar() {
-	var exibir = document.getElementById("terapias").style.display;
-
-	if (exibir == "block") {
-		document.getElementById("terapias").style.display = "none";
-	} else {
-		document.getElementById("terapias").style.display = "block";
-	}
-
-    }
-
-    </script>
-
+    <script type="text/javascript" src="js/geralJs.js"></script>
 </head>
 
 <body>
     <header>
         <div id="logo"><a href="index.html"><img src="logo.png"></a></div>
-        <input type="checkbox" id="bt_menu">
-        <label for="bt_menu">&#9776;</label>
-        <nav class="menu">
+        <input type="checkbox" id="bt_menu" onclick="mostrarEsconderMenu()">
+        <label for="bt_menu" id="labelMenu">&#9776;</label>
+        <nav id="menu">
             <ul>
                 <li><a href="historia.html">Minha história</a></li>
-                <li onclick="mostrar()">
+                <li id="linhaTerapias" onclick="mostrarEsconderTerapias()">
                     <a>Terapias</a>
                     <ul id="terapias">
                         <li><a href="ginecologia.html">Ginecologia Natural</a></li>
@@ -50,10 +35,10 @@
         </nav>
     </header>
 
-<div class="todo">
-<div class="todo-dentro"> 
+<div id="todo">
+<div id="todo-dentro"> 
 <div id="fotoflorais">
-<img src="florais2.jpg" style="width: 100%;" />
+<img src="http://www.hostcgs.com.br/hostimagem/images/154florais2.jpg" />
 </div>
 
 <div id="titulo">
@@ -86,15 +71,15 @@ portanto não esta ligada a nenhuma religião.
 
 <div>
 <a href="https://api.whatsapp.com/send?phone=5547991912407" target="_blank">
-<img  class="whatsapp" src="whatsapp-48.png" style="width: 60px; height: 60px;" />
+<img id="whatsapp" src="http://www.hostcgs.com.br/hostimagem/images/947whatsapp_48.png" />
 </a>
 </div>
 
-<div class="footer">
-<div class="colunafooter">
-<div class="rodapetexto"><p>Copyright © Sirlei Sil. Todos os direitos reservados. Desenvolvido por Débora Gonçalves.</p></div>
-<div class="rodapeimg"><div id="img-1"><a href="https://www.facebook.com/sirleiaparecida.cambruzzi"><img src="facebook-48.png"></a></div>
-<div id="img-2"><a href="https://www.instagram.com/sirleisil_/"><img src="instagram-48.png"></a></div>
+<div id="footer">
+<div id="colunafooter">
+<div id="rodapetexto"><p>Copyright © Sirlei Sil. Todos os direitos reservados. Desenvolvido por Débora Gonçalves.</p></div>
+<div id="rodapeimg"><div id="img-1"><a href="https://www.facebook.com/sirleiaparecida.cambruzzi"><img src="http://www.hostcgs.com.br/hostimagem/images/540facebook_48.png"></a></div>
+<div id="img-2"><a href="https://www.instagram.com/sirleisil_/"><img src="http://www.hostcgs.com.br/hostimagem/images/914instagram_48.png"></a></div>
 </div>
 </div>
 </div>
