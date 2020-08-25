@@ -29,10 +29,12 @@ function mostrarEsconderMenu() {
 			document.getElementById("menu").style.display = "block";
 			document.getElementById("labelMenu").style.marginTop = "-150px";
 			document.getElementById("whatsapp").style.display = "none";
+			document.getElementById("rodape").style.display = "none";
 		} else {
 			document.getElementById("menu").style.display = "none";
 			document.getElementById("labelMenu").style.marginTop = "-120px";
 			document.getElementById("whatsapp").style.display = "block";
+			document.getElementById("rodape").style.display = "block";
 		}
 	}
 }

@@ -174,7 +174,7 @@ text-decoration: none;
     height: 60px;
 }
 
-#footer {
+#rodape {
 margin-top: -60px;
 width: 100%;   
 height: 60px;   
@@ -367,7 +367,7 @@ margin-top: 150px;
 padding-bottom: 80px;
 }
 
-#footer {
+#rodape {
 margin-top: -60px;
 clear: both;
 float: none;
@@ -442,7 +442,7 @@ font-size: 25px;
 padding-bottom: 100px;
 }
 
-#footer {
+#rodape {
 margin-top: -75px;
 clear: both;
 float: none;

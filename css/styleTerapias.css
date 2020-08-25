@@ -211,7 +211,7 @@ margin: 0 auto;
     height: 60px;
 }
 
-#footer {
+#rodape {
 margin-top: -60px;
 width: 100%;   
 height: 60px;   
@@ -457,13 +457,13 @@ height: 900px;
 padding-bottom: 80px;
 }
 
-#footer {
-margin-top: -60px;
-clear: both;
-float: none;
-height: 60px;
-width: 100%;
-}
+    #rodape {
+        margin-top: -60px;
+        clear: both;
+        float: none;
+        height: 60px;
+        width: 100%;
+    }
 
 #colunafooter {
 display: flex;
@@ -552,13 +552,13 @@ height: 1000px;
 padding-bottom: 100px;
 }
 
-#footer {
-margin-top: -75px;
-clear: both;
-float: none;
-height: 75px;
-width: 100%;
-}
+    #rodape {
+        margin-top: -75px;
+        clear: both;
+        float: none;
+        height: 75px;
+        width: 100%;
+    }
 
 #colunafooter {
 display: flex;
@@ -648,13 +648,13 @@ height: 950px;
 padding-bottom: 130px;
 }
 
-#footer {
-margin-top: -110px;
-clear: both;
-float: none;
-height: 110px;
-width: 100%;
-}
+    #rodape {
+        margin-top: -110px;
+        clear: both;
+        float: none;
+        height: 110px;
+        width: 100%;
+    }
 
 #colunafooter {
 display: flex;
@@ -806,13 +806,13 @@ height: 2000px;
 padding-bottom: 160px;
 }
 
-#footer {
-clear: both;
-float: none;
-height: 140px;
-margin-top: -140px;
-width: 100%;
-}
+    #rodape {
+        clear: both;
+        float: none;
+        height: 140px;
+        margin-top: -140px;
+        width: 100%;
+    }
 
 #colunafooter {
 display: flex;

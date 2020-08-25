@@ -249,7 +249,7 @@ color: black;
     height: 60px;
 }
 
-#footer {
+#rodape {
 margin-top: -60px;
 width: 100%;   
 height: 60px;   
@@ -473,7 +473,7 @@ margin-top: 150px;
 padding-bottom: 80px;
 }
 
-#footer {
+#rodape {
 margin-top: -60px;
 clear: both;
 float: none;
@@ -540,7 +540,7 @@ margin-top: 150px;
 padding-bottom: 100px;
 }
 
-#footer {
+#rodape {
 margin-top: -75px;
 clear: both;
 float: none;
@@ -641,7 +641,7 @@ height: 180px;
 padding-bottom: 130px;
 }
 
-#footer {
+#rodape {
 margin-top: -110px;
 clear: both;
 float: none;
@@ -720,7 +720,7 @@ padding-right: 10px;
 padding-bottom: 160px;
 }
 
-#footer {
+#rodape {
 clear: both;
 float: none;
 height: 140px;
