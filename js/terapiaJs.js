@@ -1,21 +1,21 @@
-function mostrarEsconderTerapias() {
+ function mostrarEsconderTerapias() {
 
-	var exibir = document.getElementById("terapias").style.display;
+	 var exibir = document.getElementById("terapiasLista").style.display;
 
-	if (window.matchMedia("(min-width: 1200px)").matches) {
-		document.getElementById("linhaTerapias").style.maxWidth = "8%";
-		document.getElementById("terapias").style.width = "250%";
-	} else {
-		document.getElementById("linhaTerapias").style.maxWidth = "100%";
-	}
+	 if (window.matchMedia("(min-width: 1200px)").matches) {
+		 document.getElementById("linhaTerapias").style.maxWidth = "8%";
+		 document.getElementById("terapiasLista").style.width = "250%";
+	 } else {
+		 document.getElementById("linhaTerapias").style.maxWidth = "100%";
+     }
 
 	if (exibir == "block") {
-		document.getElementById("terapias").style.display = "none";
+		document.getElementById("terapiasLista").style.display = "none";
 	} else {
-		document.getElementById("terapias").style.display = "block";
+		document.getElementById("terapiasLista").style.display = "block";
 	}
 
-}
+} 
 
 function mostrarEsconderMenu() {
 	if (window.matchMedia("(max-width: 1200px)").matches) {
