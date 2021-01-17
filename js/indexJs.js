@@ -1,4 +1,11 @@
- function mostrarEsconderTerapias() {
+window.onload = function() {
+		
+	document.getElementById("terapiasLista").style.display = "none";
+
+}
+
+
+function mostrarEsconderTerapias() {
 
 	 var exibir = document.getElementById("terapiasLista").style.display;
 
