@@ -11,12 +11,12 @@
 	<body>
 		<header>
 			<div id="logo"><a href="index.html"><img src="../images/logo.png"></a></div>
-			<input type="checkbox" id="bt_menu" onclick="mostrarEsconderMenu()">
+			<input type="checkbox" id="bt_menu" onclick="toggleMenu()">
 			<label for="bt_menu" id="labelMenu">&#9776;</label>
 			<nav id="menu">
 				<ul>
 					<li><a href="historia.html">Minha história</a></li>
-					<li id="linhaTerapias" onclick="mostrarEsconderTerapias()">
+					<li id="linhaTerapias" onclick="toggleTherapies()">
 						<a>Terapias</a>
 						<ul id="terapiasLista">
 							<li><a href="ginecologia.html">Ginecologia Natural</a></li>
@@ -59,7 +59,7 @@
 					<h2>Perguntas e respostas</h2>
 				</div>
 				
-				<div id="perguntas1" onclick="mostrarEsconderResposta1()">
+				<div id="perguntas1" onclick="toggleAnswer1()">
 					<input type="checkbox" id="pergunta1">
 					<div id="pergunta-caixa1"><p><label for="pergunta1">O Reiki está ligado a alguma religião?</label></p></div>
 					<div id="resposta1">
@@ -67,7 +67,7 @@
 					</div>
 				</div> 
 				
-				<div id="perguntas2" onclick="mostrarEsconderResposta2()">
+				<div id="perguntas2" onclick="toggleAnswer2()">
 					<input type="checkbox" id="pergunta2">
 					<div id="pergunta-caixa2"><p><label for="pergunta2">Como funciona o tratamento Reiki?</label></p></div>
 					<div id="resposta2">
@@ -76,7 +76,7 @@
 					</div>
 				</div>
 				
-				<div id="perguntas3" onclick="mostrarEsconderResposta3()">
+				<div id="perguntas3" onclick="toggleAnswer3()">
 					<input type="checkbox" id="pergunta3">
 					<div id="pergunta-caixa3"><p><label for="pergunta3">O que são chakras e os quais os principais?</label></p></div>
 					<div id="resposta3">
