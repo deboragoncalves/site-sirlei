@@ -4,9 +4,9 @@ window.onload = function () {
 
 }
 
-function mostrarEsconderTerapias() {
+function toggleTherapies() {
 
-    var exibir = document.getElementById("terapiasLista").style.display;
+    var display = document.getElementById("terapiasLista").style.display;
 
     if (window.matchMedia("(min-width: 1200px)").matches) {
         document.getElementById("linhaTerapias").style.maxWidth = "8%";
@@ -15,7 +15,7 @@ function mostrarEsconderTerapias() {
         document.getElementById("linhaTerapias").style.maxWidth = "100%";
     }
 
-    if (exibir == "block") {
+    if (display == "block") {
         document.getElementById("terapiasLista").style.display = "none";
     } else {
         document.getElementById("terapiasLista").style.display = "block";
@@ -23,15 +23,15 @@ function mostrarEsconderTerapias() {
 
 }
 
-function mostrarEsconderMenu() {
+function toggleMenu() {
     if (window.matchMedia("(max-width: 1200px)").matches) {
         document.getElementById("menu").style.paddingTop = "20px";
         document.getElementById("menu").style.marginTop = "-150px";
         document.getElementById("menu").style.float = "right";
 
-        var mostrarMenu = document.getElementById("menu").style.display;
+        var displayMenu = document.getElementById("menu").style.display;
 
-        if (mostrarMenu == "none") {
+        if (displayMenu == "none") {
             document.getElementById("menu").style.display = "block";
             document.getElementById("labelMenu").style.marginTop = "-150px";
             document.getElementById("whatsapp").style.display = "none";

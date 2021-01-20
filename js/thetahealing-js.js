@@ -4,9 +4,9 @@ window.onload = function () {
 
 }
 
-function mostrarEsconderTerapias() {
+function toggleTherapies() {
 
-    var exibir = document.getElementById("terapiasLista").style.display;
+    var display = document.getElementById("terapiasLista").style.display;
 
     if (window.matchMedia("(min-width: 1200px)").matches) {
         document.getElementById("linhaTerapias").style.maxWidth = "8%";
@@ -15,7 +15,7 @@ function mostrarEsconderTerapias() {
         document.getElementById("linhaTerapias").style.maxWidth = "100%";
     }
 
-    if (exibir == "block") {
+    if (display == "block") {
         document.getElementById("terapiasLista").style.display = "none";
     } else {
         document.getElementById("terapiasLista").style.display = "block";
@@ -23,15 +23,15 @@ function mostrarEsconderTerapias() {
 
 }
 
-function mostrarEsconderMenu() {
+function toggleMenu() {
     if (window.matchMedia("(max-width: 1200px)").matches) {
         document.getElementById("menu").style.paddingTop = "20px";
         document.getElementById("menu").style.marginTop = "-150px";
         document.getElementById("menu").style.float = "right";
 
-        var mostrarMenu = document.getElementById("menu").style.display;
+        var displayMenu = document.getElementById("menu").style.display;
 
-        if (mostrarMenu == "none") {
+        if (displayMenu == "none") {
             document.getElementById("menu").style.display = "block";
             document.getElementById("labelMenu").style.marginTop = "-150px";
             document.getElementById("whatsapp").style.display = "none";
@@ -45,40 +45,40 @@ function mostrarEsconderMenu() {
     }
 }
 
-function mostrarEsconderResposta1() {
-    var resposta1Display = document.getElementById("resposta1").style.display;
+function toggleAnswer1() {
+    var answer1Display = document.getElementById("resposta1").style.display;
 
-    if (resposta1Display == "none") {
+    if (answer1Display == "none") {
         document.getElementById("resposta1").style.display = "block";
     } else {
         document.getElementById("resposta1").style.display = "none";
     }
 }
 
-function mostrarEsconderResposta2() {
-    var resposta2Display = document.getElementById("resposta2").style.display;
+function toggleAnswer2() {
+    var answer2Display = document.getElementById("resposta2").style.display;
 
-    if (resposta2Display == "none") {
+    if (answer2Display == "none") {
         document.getElementById("resposta2").style.display = "block";
     } else {
         document.getElementById("resposta2").style.display = "none";
     }
 }
 
-function mostrarEsconderResposta3() {
-    var resposta3Display = document.getElementById("resposta3").style.display;
+function toggleAnswer3() {
+    var answer3Display = document.getElementById("resposta3").style.display;
 
-    if (resposta3Display == "none") {
+    if (answer3Display == "none") {
         document.getElementById("resposta3").style.display = "block";
     } else {
         document.getElementById("resposta3").style.display = "none";
     }
 }
 
-function mostrarEsconderResposta4() {
-    var resposta4Display = document.getElementById("resposta4").style.display;
+function toggleAnswer4() {
+    var answer4Display = document.getElementById("resposta4").style.display;
 
-    if (resposta4Display == "none") {
+    if (answer4Display == "none") {
         document.getElementById("resposta4").style.display = "block";
     } else {
         document.getElementById("resposta4").style.display = "none";
