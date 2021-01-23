@@ -1,0 +1,472 @@
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #D79B9B;
+	color: black;
+	height: 100%;
+	margin: 0;
+}
+
+#todo {
+	min-height: 100%;
+}
+
+#todo-dentro {
+	padding-bottom: 80px;
+}
+
+#fotoflorais img {
+	margin-top: 200px;
+	width: 100%;
+}
+
+#titulo-floral {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#titulo-floral h2 {
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
+
+/* #imagem {
+	margin-left: 50px;
+	float: left;
+	margin: 50px;
+} */
+
+/* #principal img {
+	border-radius: 20%;
+} */
+
+#texto {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#texto p {
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+/* .question {
+	margin-top: 50px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	}
+	
+	.question input, .question .resposta {
+	display: none;
+	color: black;
+	}
+	
+	.question .resposta {
+	margin-top: 30px;
+	}
+	
+	.question label { 
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	width: 100%;
+	}
+	
+	.question input:checked ~ .resposta {
+	display: block;
+} */
+
+#rodape {
+	margin-top: -60px;
+	width: 100%;   /* Largura estende por toda página da div */
+	height: 60px;   /* Altura da div */
+}
+
+#colunafooter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+#rodapetexto {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-size: 18px; 
+	font-family: Calibri;
+	width: 70%;
+	float: left;
+	height: 60px;
+	margin: 0;
+	background-color: rgba(252, 252, 252, 0.5);
+}
+
+#rodapetexto p {
+	font-family: Calibri;
+}
+
+#rodapeimg {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	float: right;
+	width: 30%;
+	margin: 0;
+	height: 60px;
+	background-color: rgba(252, 252, 252, 0.5);
+}
+
+#img-1 img, #img-2 img {
+	float: left;
+	margin: 2px;
+	width: 43px;
+	height: 43px;
+}
+
+@media(min-width: 556px) and (max-width: 670px) {
+	
+	#titulo-floral {
+		height: 100px;
+	}
+	
+	#titulo-floral h2 {
+		font-size: 40px;
+	}
+	
+}
+
+@media(min-width: 481px) and (max-width: 555px) {
+	
+	#titulo-floral {
+		height: 150px;
+	}
+	
+	#titulo-floral h2 {
+		font-size: 50px;
+	}
+	
+}
+
+@media(min-width: 980px) and (max-width: 1310px) {
+	
+	#fotoflorais img {
+		margin-top: 150px; 
+	}
+	
+}
+
+@media(min-width: 701px) and (max-width: 979px) {
+	
+	#fotoflorais img {
+		margin-top: 150px; 
+	}
+	
+	#titulo-floral {
+		height: 130px;
+	}
+	
+	#titulo-floral h2 {
+		font-size: 50px;
+		padding-left: 10px; 
+		padding-right: 10px;
+	}
+	
+	#todo-dentro {
+		padding-bottom: 80px;
+	}
+	
+	#rodape {
+		margin-top: -60px;
+		clear: both;
+		float: none;
+		height: 60px;
+		width: 100%;
+	}
+	
+	#colunafooter {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#rodapetexto {
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		font-size: 18px; 
+		width: 100%;
+		vertical-align: middle;
+		margin: 0;
+		height: 35px;
+	}
+	
+	#rodapetexto p {
+		font-family: Calibri;
+		text-align: justify;
+		padding-top: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#rodapeimg {
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
+@media(max-width: 700px) {
+	
+	#fotoflorais img {
+		margin-top: 150px; 
+	}
+	
+	#titulo-floral {
+		height: 130px;
+	}
+	
+	#titulo-floral h2 {
+		font-size: 50px;
+		padding-left: 10px; 
+		padding-right: 10px;
+	}
+	
+	#todo-dentro {
+		padding-bottom: 100px;
+	}
+	
+	#rodape {
+		margin-top: -75px;
+		clear: both;
+		float: none;
+		height: 75px;
+		width: 100%;
+	}
+	
+	#colunafooter {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#rodapetexto {
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		font-size: 18px; 
+		font-family: Calibri;
+		width: 100%;
+		vertical-align: middle;
+		margin: 0;
+		height: 45px;
+	}
+	
+	#rodapetexto p {
+		font-family: Calibri;
+		text-align: justify;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	#rodapeimg {
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
+@media(max-width: 480px) {
+
+	#fotoflorais img {
+		margin-top: 150px;
+	}
+	
+	#titulo-floral {
+		height: 150px;
+	}
+	
+	#titulo-floral h2 {
+		font-size: 45px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	/* #principal img {
+		margin-top: -50px;
+		width: 300px;
+		height: 250px;
+	} */
+	
+	#texto p {
+		max-width: 100%;
+	}
+	
+	#todo-dentro {
+		padding-bottom: 130px;
+	}
+	
+	#rodape {
+		margin-top: -110px;
+		clear: both;
+		float: none;
+		height: 110px;
+		width: 100%;
+	}
+	
+	#colunafooter {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#rodapetexto {
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		font-size: 18px; 
+		font-family: Calibri;
+		width: 100%;
+		vertical-align: middle;
+		margin: 0;
+		height: 70px;
+	}
+	
+	#rodapetexto p {
+		font-family: Calibri;
+		text-align: justify;
+		padding-top: 5px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	#rodapeimg {
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
+@media(max-width: 330px) {
+	
+	#titulo-floral {
+		height: 180px;
+	}
+	
+	#titulo-floral h2 {
+		font-size: 45px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#perguntas h2 {
+		font-size: 24px;
+	}
+	
+	#todo-dentro {
+		padding-bottom: 160px;
+	}
+	
+	#rodape {
+		clear: both;
+		float: none;
+		height: 140px;
+		margin-top: -140px;
+		width: 100%;
+	}
+	
+	#colunafooter {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#rodapetexto {
+		margin: 0;
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		font-size: 18px; 
+		font-family: Calibri;
+		width: 100%;
+		vertical-align: middle;
+		height: 110px;
+	}
+	
+	#rodapetexto p {
+		font-family: Calibri;
+		text-align: justify;
+		padding-top: 5px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	#rodapeimg {
+		margin: 0;
+		clear: both;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+}
+
+

@@ -1,0 +1,385 @@
+body {
+	background-color: #D79B9B;
+	color: black;
+}
+
+#fotoginecologia img {
+	margin-top: 200px;
+	width: 100%;
+}
+
+#titulo-ginecologia {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#titulo-ginecologia h2 {
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
+
+/* #imagem {
+	margin-left: 50px;
+	float: left;
+} */
+
+/* #principal img {
+	padding: 40px;
+	border-radius: 20%;
+} */
+
+#texto {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#texto p {
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+#perguntas h2 {
+	font-size: 28px;
+	margin-top: 15px;
+	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3 {
+	background-color: rgba(252, 252, 252, 0.5);
+	border-radius: 10px;
+	margin: 20px;
+	height: 60px;
+	box-shadow: 0 0 1em #fff;
+}
+
+#pergunta-caixa1 label, #pergunta-caixa2 label, #pergunta-caixa3 label {
+	font-size: 22px;
+	margin-left: 25px;
+	text-align: justify;
+}
+
+#pergunta-caixa1 p, #pergunta-caixa2 p, #pergunta-caixa3 p {
+	padding-top: 15px;
+	text-align: justify;
+}
+
+#perguntas1, #perguntas2, #perguntas3 {
+	cursor: pointer;
+	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#perguntas1 input {
+	display: none;
+}
+
+#perguntas2 input {
+	display: none;
+}
+
+#perguntas3 input {
+	display: none;
+}
+
+#resposta1, #resposta2, #resposta3 {
+	display: none;
+	margin: 0 15px;
+	background-color: rgba(252, 252, 252, 0.5);
+	border-radius: 12px;
+}
+
+#resposta1 p, #resposta2 p, #resposta3 p {
+	text-align: justify;
+	max-width: 90%; 
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	font-family: Calibri;
+	padding: 10px 0;
+}
+
+#rodape {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	background-color: rgba(252, 252, 252, 0.5);
+	width: 100%;
+	position: relative;
+	margin: 0;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#rodapetexto {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	margin: 0;
+	color: black;
+	font-size: 18px; 
+	font-family: Calibri;
+	width: 70%;
+	float: left;
+}
+
+#rodapetexto p {
+	font-family: Calibri;
+}
+
+#rodapeimg {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	float: right;
+	margin: 0;
+	width: 30%;
+}
+
+#img-1 img, #img-2 img {
+	float: left;
+	margin: 2px;
+	width: 43px;
+	height: 43px;
+}
+
+@media(min-width: 481px) and (max-width: 750px) {
+	
+	#pergunta-caixa1 {
+		height: 65px;
+	}
+	
+	#pergunta-caixa1 label {
+		margin-left: 0;
+		text-align: justify;
+	}
+	
+	#pergunta-caixa1 p {
+		padding-top: 8px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+}
+
+@media(max-width: 451px) {
+	
+	#titulo-ginecologia {
+		height: 130px;
+	}
+	
+	#titulo-ginecologia h2 {
+		font-size: 50px;
+	}
+	
+}
+
+@media(min-width: 450px) and (max-width: 600px) {
+	
+	#titulo-ginecologia {
+		height: 100px;
+	}
+	
+	#titulo-ginecologia h2 {
+		font-size: 50px;
+	}
+	
+}
+
+@media(min-width: 980px) and (max-width: 1310px) {
+	
+	#fotoginecologia img {
+		margin-top: 150px; 
+	}
+	
+}
+
+@media(min-width: 701px) and (max-width: 979px) {
+	
+	#fotoginecologia img {
+		margin-top: 150px; 
+	}
+	
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 90px;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	#rodapeimg {
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+}
+
+@media(max-width: 700px) {
+	
+	#fotoginecologia img {
+		margin-top: 150px; 
+	}
+	
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 110px;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#rodapeimg {
+		padding-top: 5px;
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+}
+
+@media(max-width: 480px) {
+	
+	#fotoginecologia img {
+		margin-top: 150px;
+	}
+	
+	#texto p {
+		max-width: 100%;
+	}
+	
+	/* #imagem img {
+		width: 100%;
+	} */
+	
+	#pergunta-caixa1 label, #pergunta-caixa2 label, #pergunta-caixa3 label {
+		font-size: 21px;
+		margin-left: 0;
+		text-align: justify;
+	}
+	
+	#resposta1 p, #resposta2 p, #resposta3 p {
+		text-align: justify;
+	}
+	
+	#pergunta-caixa1 {
+		height: 80px;
+	}
+	
+	#pergunta-caixa2, #pergunta-caixa3 {
+		height: 65px;
+	}
+	
+	#pergunta-caixa2 p, #pergunta-caixa3 p {
+		padding-top: 8px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+	#pergunta-caixa1 p {
+		padding-top: 2px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 120px;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	#rodapeimg {
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+	#img-1 img, #img-2 img {
+		width: 40px;
+		height: 40px;
+	}
+	
+}
+
+@media(max-width: 330px) {
+	
+	#perguntas h2 {
+		font-size: 24px;
+	}
+	
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 140px;
+		width: 100%;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		font-size: 15px;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	#rodapeimg {
+		vertical-align: middle;
+	}
+	
+	#img-1 img, #img-2 img {
+		width: 40px;
+		height: 40px;
+	}
+
+}
