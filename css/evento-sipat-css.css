@@ -1,0 +1,324 @@
+body {
+	background-color: #D79B9B;
+	color: black;
+}
+
+#centralizar1 {
+	float: left;
+	margin-left: 130px;
+	margin-top: 200px;
+}
+
+#centralizar2 {
+	float: right;
+	margin-right: 130px;
+	margin-top: 200px;
+}
+
+#imagem1 img {
+	width: 500px;
+	height: 380px;
+}
+
+#imagem2 img {
+	width: 500px;
+	height: 400px;
+}
+
+#titulo-evento h2 {
+	clear: both;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Ink Free";
+}
+
+#texto {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+#texto p {
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+#voltar {
+	margin-top: 30px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#voltar p {
+	font-size: 20px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: black;
+}
+
+#voltar p a {
+	text-decoration: none;
+	color: black;
+}
+
+#rodape {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	background-color: rgba(252, 252, 252, 0.5);
+	width: 100%;
+	position: relative;
+	margin: 0;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#rodapetexto {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	margin: 0;
+	color: black;
+	font-size: 18px; 
+	font-family: Calibri;
+	width: 70%;
+	float: left;
+}
+
+#rodapetexto p {
+	font-family: Calibri;
+}
+
+#rodapeimg {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	float: right;
+	margin: 0;
+	width: 30%;
+}
+
+#img-1 img, #img-2 img {
+	float: left;
+	margin: 2px;
+	width: 43px;
+	height: 43px;
+}
+
+@media(min-width: 1221px) and (max-width: 1320px) {
+	
+	#centralizar1 {
+		float: left;
+		margin-left: 80px;
+		margin-top: 150px;
+	}
+	
+	#centralizar2 {
+		float: right;
+		margin-right: 80px;
+		margin-top: 150px;
+	}
+	
+}
+
+@media(min-width: 1121px) and (max-width: 1220px) {
+	
+	#centralizar1 {
+		float: left;
+		margin-left: 30px;
+		margin-top: 150px;
+	}
+	
+	#centralizar2 {
+		float: right;
+		margin-right: 30px;
+		margin-top: 150px;
+	}
+	
+}
+
+@media(min-width: 481px) and (max-width: 1120px) {
+	
+	#centralizar1 {
+		margin-top: 150px;
+	}
+	
+	#centralizar2 {
+		margin-top: 30px;
+	}
+	
+	#centralizar1, #centralizar2 {
+		text-align: center;
+		float: none;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+}
+
+@media(min-width: 701px) and (max-width: 979px) {
+	
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 90px;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	#rodapeimg {
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+}
+
+@media(max-width: 700px) {
+	
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 110px;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#rodapeimg {
+		padding-top: 5px;
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+}
+
+@media(max-width: 480px) {
+
+	#centralizar1, #centralizar2 {
+		float: none;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	#centralizar1 {
+		margin-top: 150px;
+	}
+	
+	#centralizar2 {
+		margin-top: 30px;
+	}
+	
+	#imagem1 img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	#imagem2 img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	#titulo-evento h2 {
+		font-size: 30px;
+	}
+	
+	#texto p {
+		max-width: 100%;
+	}
+	
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 120px;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	#rodapeimg {
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+	#img-1 img, #img-2 img {
+		width: 40px;
+		height: 40px;
+	}
+	
+}
+
+@media(max-width: 330px) {
+
+	#rodape {
+		margin-top: 30px;
+		flex-direction: column;
+		height: 140px;
+		width: 100%;
+	}
+	
+	#rodapetexto {
+		justify-content: center;
+		text-align: justify;
+	}
+	
+	#rodapetexto p {
+		font-size: 15px;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	#rodapeimg {
+		vertical-align: middle;
+	}
+	
+	#img-1 img, #img-2 img {
+		width: 40px;
+		height: 40px;
+	}
+
+}
