@@ -3,6 +3,11 @@ body {
 	color: black;
 }
 
+#titulo-evento h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
 #centralizar1 {
 	float: left;
 	margin-left: 130px;
@@ -17,12 +22,12 @@ body {
 
 #imagem1 img {
 	width: 500px;
-	height: 380px;
+	height: 500px;
 }
 
 #imagem2 img {
-	width: 500px;
-	height: 400px;
+	width: 523px;
+	height: 584px;
 }
 
 #rodape {
@@ -75,7 +80,7 @@ body {
 	height: 43px;
 }
 
-@media(min-width: 1221px) and (max-width: 1320px) {
+@media(min-width: 1241px) and (max-width: 1340px) {
 	
 	#centralizar1 {
 		float: left;
@@ -91,7 +96,7 @@ body {
 	
 }
 
-@media(min-width: 1121px) and (max-width: 1220px) {
+@media(min-width: 1140px) and (max-width: 1240px) {
 	
 	#centralizar1 {
 		float: left;
@@ -107,7 +112,7 @@ body {
 	
 }
 
-@media(min-width: 481px) and (max-width: 1120px) {
+@media(min-width: 481px) and (max-width: 1140px) {
 	
 	#centralizar1 {
 		margin-top: 150px;
@@ -128,7 +133,7 @@ body {
 }
 
 @media(min-width: 701px) and (max-width: 979px) {
-	
+
 	#rodape {
 		margin-top: 30px;
 		flex-direction: column;
@@ -185,7 +190,7 @@ body {
 }
 
 @media(max-width: 480px) {
-
+	
 	#centralizar1, #centralizar2 {
 		float: none;
 		text-align: center;
@@ -247,7 +252,7 @@ body {
 }
 
 @media(max-width: 330px) {
-
+	
 	#rodape {
 		margin-top: 30px;
 		flex-direction: column;
@@ -275,5 +280,5 @@ body {
 		width: 40px;
 		height: 40px;
 	}
-
+	
 }
