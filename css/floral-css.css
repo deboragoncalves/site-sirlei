@@ -59,36 +59,6 @@ body {
 	font-size: 20px;
 }
 
-/* .question {
-	margin-top: 50px;
-	border-bottom: 1px solid #ccc;
-	padding: 10px 0;
-	text-align: center;
-	color: black;
-	font-size: 20px;
-	}
-	
-	.question input, .question .resposta {
-	display: none;
-	color: black;
-	}
-	
-	.question .resposta {
-	margin-top: 30px;
-	}
-	
-	.question label { 
-	cursor: pointer;
-	display: inline-block;
-	font-weight: bold;
-	margin-bottom: 5px;
-	width: 100%;
-	}
-	
-	.question input:checked ~ .resposta {
-	display: block;
-} */
-
 #rodape {
 	margin-top: -60px;
 	width: 100%;   /* Largura estende por toda página da div */
