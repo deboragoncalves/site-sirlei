@@ -1318,12 +1318,6 @@ header {
 
 @media(min-width: 980px) and (max-width: 1310px) {
 	
-	@font-face {
-		font-family: "Ink Free";
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
-	}
-	
 	.fotoinicio img {
 		margin-top: 150px; 
 	}
@@ -1331,12 +1325,6 @@ header {
 }
 
 @media(min-width: 701px) and (max-width: 979px) {
-	
-	@font-face {
-		font-family: "Ink Free";
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
-	}
 	
 	.fotoinicio img {
 		margin-top: 150px; 
@@ -1369,12 +1357,6 @@ header {
 }
 
 @media(max-width: 700px) {
-	
-	@font-face {
-		font-family: "Ink Free";
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
-	}
 	
 	.fotoinicio img {
 		margin-top: 150px; 
@@ -1409,24 +1391,9 @@ header {
 
 @media(max-width: 480px) {
 	
-	@font-face {
-		font-family: "Ink Free";
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
-	}
-	
 	.fotoinicio img {
 		margin-top: 150px;
 	}
-	
-	/* .cssSlider {
-		width: 400px;
-		margin-left: 0px;
-		}
-		
-		.sliderImages {
-		width: 2000px;
-	} */
 	
 	.historia2 {
 		margin-top: 10px;
@@ -1501,26 +1468,6 @@ header {
 		font-size: 20px;
 		text-align: center;
 	}
-	
-	/* .feminino { 
-		margin-left: 0px;
-		width: 360px;
-		}
-		
-		.feminino h1 { 
-		font-size: 25px;
-		margin-left: 0px;
-		}
-		
-		.feminino p { 
-		margin-left: 0px;
-		font-size: 20px;
-		}
-		
-		.saibamais4 {
-		margin-top: 30px;
-		margin-left: 50px;
-	} */
 	
 	.consulta {
 		margin-top: 20px;
@@ -1599,12 +1546,6 @@ header {
 }
 
 @media(max-width: 330px) {
-	
-	@font-face {
-		font-family: "Ink Free";
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
-	}
 	
 	.historia2 {
 		margin-top: 10px;
