@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Ink Free", Tahoma;
-}
-
-@font-face {
-    font-family: "Ink Free";
-    src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-    src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+	font-family: 'Satisfy', cursive;
 }
 
 body {
@@ -23,41 +19,40 @@ header {
 	background-color: white; 
 }
 
-#logo img {
+.logo img {
     width: 300px;
     height: 200px;
 }
 
-#menu {
+.menu {
     margin-top: -100px;
     width: 1100px;
 	height: 200px;
 	position: fixed;
 	right: 0;
-	font-size: 20px;
+	font-size: 25px;
 }
 
-#menu ul {
+.menu ul {
 	list-style: none;
 	position: relative;
 }
 
-#menu ul li {
+.menu ul li {
 	text-align: center;
-	padding-right: 50px;
 	float: left;
 	cursor: pointer;
 }
 
-#menu a {
-	padding: 8px;
+.menu a {
+	padding: 3px;
 	display: block;
 	text-decoration: none;
 	color: black;
 	width: 100%;
 }
 
-#terapiasLista {
+.terapiasLista {
 	position: absolute;
 	display: none;
 	background-color: white;
@@ -68,7 +63,7 @@ header {
 	cursor: pointer;
 }
 
-#menu ul li ul li {
+.menu ul li ul li {
 	background-color: white;
 	color: black;
 	width: 100%;
@@ -77,7 +72,7 @@ header {
 	margin: 0px;
 }
 
-#menu ul li ul li a {
+.menu ul li ul li a {
 	background-color: white;
 	color: black;
 	width: 100%;
@@ -86,63 +81,30 @@ header {
 	margin: 0px;
 }
 
-#menu a:hover {
+.menu a:hover {
 	background-color: #D79B9B;
 	color: white;
 	width: 100%;
 }
 
-#labelMenu {
+.labelMenu {
 	background-color: white;
-	color: #C14242;
+	color: .C14242;
 	font-size: 30px;
 	cursor: pointer;
 	display: none;
 }
 
-#bt_menu {
+.bt_menu {
 	display: none;
 }
 
-#fotoinicio img {
+.fotoinicio img {
 	margin-top: 200px;
 	width: 100%;
 }
 
-/* #cssSlider {
-	width: 800px;
-	height: 500px;
-	overflow: hidden;
-	margin-left: 300px;
-	} 
-	
-	#sliderImages {
-	width: 4000px;
-	height: 500px;
-	overflow: hidden;
-	animation: slide 16s infinite;
-	}
-	
-	#sliderImages img { 
-	float: left;
-	width: 20%;
-	}
-	
-	@keyframes slide{
-	0%{margin-left: 0px;}
-	17%{margin-left: 0px;}
-	20%{margin-left: -800px;}
-	37%{margin-left: -800px;}
-	40%{margin-left: -1600px;}
-	57%{margin-left: -1600px;}
-	60%{margin-left: -2400px;}
-	77%{margin-left: -2400px;}
-	80%{margin-left: -3200px;}
-	97%{margin-left: -3200px;}
-	100%{margin-left: 0px;}
-} */
-
-#historia2 {
+.historia2 {
 	margin-top: 10px;
 	color: black;
 	height: 400px;
@@ -152,7 +114,7 @@ header {
 	background-repeat: no-repeat;
 }
 
-#historia2-texto h1 { 
+.historia2-texto h1 { 
 	padding-top: 55px;
 	margin-left: 570px;
 	font-size: 50px;
@@ -161,47 +123,47 @@ header {
 	color: black;
 }
 
-#historia2-texto h1 a {
+.historia2-texto h1 a {
 	color: black;
 	text-decoration: none;
 }
 
-#historia2-texto p {
+.historia2-texto p {
 	font-size: 28px;
 	text-align: justify;
 	width: 750px;
 	margin-left: 570px;
 }
 
-#centralizar-saiba1 {
+.centralizar-saiba1 {
 	margin-top: 45px;
 }
 
-#saibahistoria {
+.saibahistoria {
 	padding: 10px;
 	color: black;
 	font-size: 25px;
 	font-family: Calibri;
 	border-radius: 12px;
 	border: 1px solid;
-	box-shadow: inset 0 1px 1px #fff;
+	box-shadow: inset 0 1px 1px .fff;
 	cursor: pointer;
 	background-color: white;
 	text-decoration: none;
 }
 
-#saibahistoria a {
+.saibahistoria a {
 	text-decoration: none;
 	color: black;
 	font-family: Calibri;
 }
 
-#saibahistoria:hover {
+.saibahistoria:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
 
-#terapias {
+.terapias {
 	margin-top: 10px;
 	height: 500px;
 	background-image: url("http://www.hostcgs.com.br/hostimagem/images/185terapias_inicio2.jpg");
@@ -210,7 +172,7 @@ header {
 	background-repeat: no-repeat;
 }
 
-#terapias-texto h1 {
+.terapias-texto h1 {
 	padding-top: 55px;
 	margin-left: 40px;
 	font-size: 50px;
@@ -219,12 +181,12 @@ header {
 	width: 600px;
 }
 
-#terapias-texto h1 a {
+.terapias-texto h1 a {
 	color: black;
 	text-decoration: none;
 }
 
-#terapias-texto p {
+.terapias-texto p {
 	margin-top: -10px;
 	font-size: 28px;
 	color: black;
@@ -233,93 +195,63 @@ header {
 	text-align: justify;
 }
 
-#centralizar-saiba2 {
+.centralizar-saiba2 {
 	margin-top: 30px;
 }
 
-#saibaterapias {
+.saibaterapias {
 	padding: 10px;
 	color: black;
 	font-size: 25px;
 	font-family: Calibri;
 	border-radius: 12px;
 	border: 1px solid;
-	box-shadow: inset 0 1px 1px #fff;
+	box-shadow: inset 0 1px 1px .fff;
 	cursor: pointer;
 	background-color: white;
 	text-decoration: none;
 }
 
-#saibaterapias a {
+.saibaterapias a {
 	text-decoration: none;
 	color: black;
 	font-family: Calibri;
 }
 
-#saibaterapias:hover {
+.saibaterapias:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
 
-/* #feminino {
-	width: 800px;
-	margin-top: 50px;
-	margin-left: 300px;
-	text-align: center;
-	}
-	
-	#feminino h1 {
-	}
-	
-	#feminino p {
-	margin-top: 50px;
-	font-size: 20px;
-	}
-	
-	.saibamais4 {
-	font-family: verdana;
-	font-size: 20px;
-	background: none;
-	border: 3px solid #C14242;
-	padding: 10px;
-	margin-top: 50px;
-	margin-left: 30px;
-	}
-	
-	.saibamais4 a {
-	text-decoration: none;
-	color: black;
-} */
-
-#consulta {
+.consulta {
 	width: 100%;
 	margin-top: 50px;
 }
 
-#consulta h1 {
+.consulta h1 {
 	text-align: center;
 	font-size: 35px;
 	color: black;
 }
 
-#consulta h1 a {
+.consulta h1 a {
 	color: black;
 	text-decoration: none;
 }
 
-#consulta p {
+.consulta p {
 	text-align: center;
 	margin-top: 20px;
 	font-size: 25px;
 }
 
-#centralizar-botao {
+.centralizar-botao {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
 
-#agenda {
+.agenda {
 	padding: 15px;
 	color: black;
 	font-size: 25px;
@@ -331,33 +263,33 @@ header {
 	text-decoration: none;
 }
 
-#agenda a {
+.agenda a {
 	text-decoration: none;
 	color: black;
 	font-family: Calibri;
 }
 
-#agenda:hover {
+.agenda:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
 
-#blog {
+.blog {
 	margin-top: 30px;
 }
 
-#blog h1 {
+.blog h1 {
 	text-align: center;
 	font-size: 45px;
 	color: black;
 }
 
-#blog h1 a {
+.blog h1 a {
 	text-decoration: none;
 	color: black;
 }
 
-#blog-textos {
+.blog-textos {
 	margin-top: 35px;
 	float: left;
 	margin-left: 200px;
@@ -365,16 +297,16 @@ header {
 	height: 500px;
 }
 
-#imagem-blog1 {
+.imagem-blog1 {
 	text-align: center;
 }
 
-#imagem-blog1 img {
+.imagem-blog1 img {
 	width: 300px;
 	height: 200px;
 }
 
-#titulo1 h3 {
+.titulo1 h3 {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -382,23 +314,23 @@ header {
 	color: black;
 }
 
-#titulo1 h3 a {
+.titulo1 h3 a {
 	color: black;
 	text-decoration: none;
 }
 
-#texto-blog1 p {
+.texto-blog1 p {
 	text-align: justify;
 	font-family: Calibri;
 	font-size: 20px;
 }
 
-#botao-blog1 {
+.botao-blog1 {
 	text-align: center;
 	margin-top: 40px;
 }
 
-#saibablog1 {
+.saibablog1 {
 	padding: 15px;
 	color: black;
 	font-size: 25px;
@@ -410,18 +342,18 @@ header {
 	text-decoration: none;
 }
 
-#saibablog1 a {
+.saibablog1 a {
 	text-decoration: none;
 	color: black;
 	font-family: Calibri;
 }
 
-#saibablog1:hover {
+.saibablog1:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
 
-#blog-textos2 {
+.blog-textos2 {
 	margin-top: 35px;
 	float: right;
 	margin-right: 200px;
@@ -429,16 +361,16 @@ header {
 	height: 500px;
 }
 
-#imagem-blog2 {
+.imagem-blog2 {
 	text-align: center;
 }
 
-#imagem-blog2 img {
+.imagem-blog2 img {
 	width: 300px;
 	height: 200px;
 }
 
-#titulo2 h3 {
+.titulo2 h3 {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -446,23 +378,23 @@ header {
 	color: black;
 }
 
-#titulo2 h3 a {
+.titulo2 h3 a {
 	color: black;
 	text-decoration: none;
 }
 
-#texto-blog2 p {
+.texto-blog2 p {
 	text-align: justify;
 	font-family: Calibri;
 	font-size: 20px;
 }
 
-#botao-blog2 {
+.botao-blog2 {
 	text-align: center;
 	margin-top: 40px;
 }
 
-#saibablog2 {
+.saibablog2 {
 	padding: 15px;
 	color: black;
 	font-size: 25px;
@@ -474,38 +406,38 @@ header {
 	text-decoration: none;
 }
 
-#saibablog2 a {
+.saibablog2 a {
 	text-decoration: none;
 	color: black;
 	font-family: Calibri;
 }
 
-#saibablog2:hover {
+.saibablog2:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
 
-#parcerias {
+.parcerias {
 	clear: both;
 	margin-top: 70px;
 	text-align: center;
 }
 
-#parcerias h1 {
+.parcerias h1 {
 	font-size: 30px;
 }
 
-#parcerias p {
+.parcerias p {
 	margin-top: 15px;
 	font-size: 30px;
 }
 
-#parcerias a {
+.parcerias a {
 	text-decoration: none;
 	color: black;
 }
 
-#redessociais {
+.redessociais {
 	clear: both;
 	margin-top: 20px;
 	display: flex;
@@ -514,26 +446,26 @@ header {
 	justify-content: center;
 }
 
-#redessociais h1 {
+.redessociais h1 {
 	font-size: 30px;
 }
 
-#redessociais h3 {
+.redessociais h3 {
 	text-align: center;
 }
 
-#imagens {
+.imagens {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 }
 
-#facebook img {
+.facebook img {
 	padding-right: 5px;
 }
 
-#whatsapp {
+.whatsapp {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
@@ -542,7 +474,7 @@ header {
 	height: 60px;
 }
 
-#rodape {
+.rodape {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -556,7 +488,7 @@ header {
 	width: 100%;
 }
 
-#rodapetexto {
+.rodapetexto {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -570,11 +502,11 @@ header {
 	float: left;
 }
 
-#rodapetexto p {
+.rodapetexto p {
 	font-family: Calibri;
 }
 
-#rodapeimg {
+.rodapeimg {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -585,7 +517,7 @@ header {
 	width: 30%;
 }
 
-#img-1 img, #img-2 img {
+.img-1 img, .img-2 img {
 	float: left;
 	margin: 2px;
 	width: 43px;
@@ -594,18 +526,18 @@ header {
 
 @media(min-width: 1201px) and (max-width: 1310px) {
 	
-	#menu { 
+	.menu { 
 		margin-top: -90px;
 	}
 	
-	#menu ul li {
+	.menu ul li {
 		text-align: center;
 		padding-right: 0;
 		padding-left: 55px;
 		float: left; 
 	}
 	
-	#logo img {
+	.logo img {
 		width: 250px;
 		height: 150px;
 		margin-left: -30px;
@@ -615,39 +547,39 @@ header {
 
 @media(max-width: 1200px) {
 	
-	#labelMenu {
+	.labelMenu {
 		margin-top: -120px;
 		float: right;
 		z-index: 1000000000000000000000;
-		color: #C14242;
+		color: .C14242;
 		display: block;
 		padding-top: 20px;
 		padding-right: 15px;
 		padding-left: 15px;
 		right: 0px;
 		background-color: white;
-		color: #C14242;
+		color: .C14242;
 		font-size: 30px;
 		position: fixed;
 	}
 	
-	#bt_menu:checked ~ #menu {
+	.bt_menu:checked ~ .menu {
 		-webkit-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
 		-moz-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
 		-o-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
 		transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
 	}
 	
-	#logo {
+	.logo {
 		margin-right: 100px;
 	}
 	
-	#logo img {
+	.logo img {
 		width: 250px;
 		height: 150px;
 	}
 	
-	#menu {
+	.menu {
 		width: 100%;
 		height: 100%;
 		display: none;
@@ -656,19 +588,19 @@ header {
 		font-size: 20px;
 	}
 	
-	#menu ul {
+	.menu ul {
 		width: 100%;
 		height: 100%;
 		background-color: white;
 	}
 	
-	#menu ul li {
+	.menu ul li {
 		width: 100%;
 		z-index: 999;
 		background-color: white;
 	}
 	
-	#menu ul ul {
+	.menu ul ul {
 		min-width: 100%;
 		padding-right: 0px;
 		padding-left: 0px;
@@ -676,11 +608,11 @@ header {
 		text-align: center;
 	}
 	
-	#terapiasLista {
+	.terapiasLista {
 		display: none;
 	}
 	
-	#menu ul ul li {
+	.menu ul ul li {
 		min-width: 100%;
 		height: 30px;
 		color: black;
@@ -693,7 +625,7 @@ header {
 		margin: 0;
 	}
 	
-	#menu ul ul li a {
+	.menu ul ul li a {
 		padding-top: 5px;
 		padding-bottom: 8px;
 	}
@@ -701,11 +633,11 @@ header {
 
 @media(min-width: 1201px) and (max-width: 1350px) {
 	
-	#blog-textos {
+	.blog-textos {
 		margin-left: 180px;
 	}
 	
-	#blog-textos2 {
+	.blog-textos2 {
 		margin-right: 180px;
 	}
 	
@@ -713,11 +645,11 @@ header {
 
 @media(min-width: 1151px) and (max-width: 1200px) {
 	
-	#blog-textos {
+	.blog-textos {
 		margin-left: 150px;
 	}
 	
-	#blog-textos2 {
+	.blog-textos2 {
 		margin-right: 150px;
 	}
 	
@@ -725,11 +657,11 @@ header {
 
 @media(min-width: 1101px) and (max-width: 1150px) {
 	
-	#blog-textos {
+	.blog-textos {
 		margin-left: 120px;
 	}
 	
-	#blog-textos2 {
+	.blog-textos2 {
 		margin-right: 120px;
 	}
 	
@@ -737,11 +669,11 @@ header {
 
 @media(min-width: 1051px) and (max-width: 1100px) {
 	
-	#blog-textos {
+	.blog-textos {
 		margin-left: 90px;
 	}
 	
-	#blog-textos2 {
+	.blog-textos2 {
 		margin-right: 90px;
 	}
 	
@@ -749,11 +681,11 @@ header {
 
 @media(min-width: 1001px) and (max-width: 1050px) {
 	
-	#blog-textos {
+	.blog-textos {
 		margin-left: 60px;
 	}
 	
-	#blog-textos2 {
+	.blog-textos2 {
 		margin-right: 60px;
 	}
 	
@@ -761,11 +693,11 @@ header {
 
 @media(min-width: 951px) and (max-width: 1000px) {
 	
-	#blog-textos {
+	.blog-textos {
 		margin-left: 60px;
 	}
 	
-	#blog-textos2 {
+	.blog-textos2 {
 		margin-right: 60px;
 	}
 	
@@ -773,11 +705,11 @@ header {
 
 @media(min-width: 481px) and (max-width: 950px) {
 	
-	#parcerias {
+	.parcerias {
 		margin-top: -30px;
 	}
 	
-	#blog-textos, #blog-textos2 {
+	.blog-textos, .blog-textos2 {
 		text-align: center;
 		float: none;
 		margin-left: auto;
@@ -789,28 +721,28 @@ header {
 
 @media(min-width: 481px) and (max-width: 1310px) {
 	
-	#historia2, #terapias {
+	.historia2, .terapias {
 		background-size: cover;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		display: block;
 	}
 	
-	#consulta {
+	.consulta {
 		margin-top: 20px;
 	}
 	
-	#consulta p {
+	.consulta p {
 		max-width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
-	#redessociais h1 {
+	.redessociais h1 {
 		font-size: 30px;
 	}
 	
-	#parcerias h1 {
+	.parcerias h1 {
 		font-size: 30px;
 	}
 	
@@ -818,7 +750,7 @@ header {
 
 @media(min-width: 1311px) {
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		float: left;
 		margin-left: 300px;
 	}
@@ -827,7 +759,7 @@ header {
 
 @media(min-width: 1600px) and (max-width: 1680px) {
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 55px;
 		margin-left: 85px;
 		font-size: 50px;
@@ -836,7 +768,7 @@ header {
 		width: 600px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		margin-top: -10px;
 		font-size: 28px;
 		color: black;
@@ -849,12 +781,12 @@ header {
 
 @media(min-width: 1450px) and (max-width: 1680px) {
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		max-width: 45%;
 		margin-left: 800px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		max-width: 45%;
 		margin-left: 800px;
 	}
@@ -863,7 +795,7 @@ header {
 
 @media(min-width: 1650px) and (max-width: 1680px) {
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		float: right;
 		margin-right: 400px;
 	}
@@ -872,7 +804,7 @@ header {
 
 @media(min-width: 1412px) and (max-width: 1649px) {
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		float: right;
 		margin-right: 350px;
 	}
@@ -881,7 +813,7 @@ header {
 
 @media(min-width: 1311px) and (max-width: 1411px) {
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		float: right;
 		margin-right: 300px;
 	}
@@ -890,12 +822,12 @@ header {
 
 @media(min-width: 1311px) and (max-width: 1450px) {
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		max-width: 45%;
 		margin-left: 700px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		max-width: 45%;
 		margin-left: 700px;
 	}
@@ -904,44 +836,44 @@ header {
 
 @media(min-width: 1201px) and (max-width: 1310px) {
 	
-	#historia2, #terapias {
+	.historia2, .terapias {
 		margin-top: 5px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		max-width: 55%;
 		margin-left: 550px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		max-width: 55%;
 		margin-left: 550px;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		float: right;
 		margin-right: 280px;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		float: left;
 		margin-left: 300px;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		font-size: 28px;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 20px;
 	}
 	
-	#terapias {
+	.terapias {
 		height: 400px;
 	}
 	
@@ -949,56 +881,56 @@ header {
 
 @media(min-width: 1101px) and (max-width: 1200px) {
 	
-	#historia2, #terapias {
+	.historia2, .terapias {
 		margin-top: 5px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 30px;
 		max-width: 40%;
 		margin-left: 500px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		max-width: 40%;
 		margin-left: 500px;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		float: right;
 		margin-right: 300px;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		float: left;
 		margin-left: 300px;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		font-size: 28px;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 20px;
 	}
 	
-	#terapias {
+	.terapias {
 		height: 400px;
 	}
 }
 
 @media(min-width: 981px) and (max-width: 1100px) {
 	
-	#historia2, #terapias {
+	.historia2, .terapias {
 		margin-top: 5px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 50px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1006,7 +938,7 @@ header {
 		font-size: 37px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		max-width: 75%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1015,16 +947,16 @@ header {
 		color: black;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		margin-top: 20px;
 		text-align: center;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		text-align: center;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 25px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1032,12 +964,12 @@ header {
 		font-size: 40px;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		margin-top: -5px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1047,7 +979,7 @@ header {
 		color: black;
 	}
 	
-	#terapias {
+	.terapias {
 		height: 400px;
 	}
 	
@@ -1055,11 +987,11 @@ header {
 
 @media(min-width: 881px) and (max-width: 980px) {
 	
-	#historia2, #terapias {
+	.historia2, .terapias {
 		margin-top: 5px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 50px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1067,7 +999,7 @@ header {
 		font-size: 35px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		max-width: 85%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1076,16 +1008,16 @@ header {
 		color: black;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		margin-top: 25px;
 		text-align: center;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		text-align: center;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 40px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1093,12 +1025,12 @@ header {
 		font-size: 37px;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		margin-top: -5px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1108,7 +1040,7 @@ header {
 		color: black;
 	}
 	
-	#terapias {
+	.terapias {
 		height: 400px;
 	}
 	
@@ -1116,16 +1048,16 @@ header {
 
 @media(min-width: 781px) and (max-width: 880px) {
 	
-	#terapias {
+	.terapias {
 		height: 300px;
 		margin-top: 10px;
 	}
 	
-	#historia2 {
+	.historia2 {
 		margin-top: 5px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 40px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1133,7 +1065,7 @@ header {
 		font-size: 35px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		max-width: 75%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1142,12 +1074,12 @@ header {
 		color: black;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		margin-top: 20px;
 		text-align: center;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 30px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1155,16 +1087,16 @@ header {
 		font-size: 35px;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		text-align: center;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		margin-top: -5px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1174,7 +1106,7 @@ header {
 		color: black;
 	}
 	
-	#terapias {
+	.terapias {
 		height: 400px;
 	}
 	
@@ -1182,16 +1114,16 @@ header {
 
 @media(min-width: 681px) and (max-width: 780px) {
 	
-	#terapias {
+	.terapias {
 		height: 300px;
 		margin-top: 10px;
 	}
 	
-	#historia2 {
+	.historia2 {
 		height: 220px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 25px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1199,7 +1131,7 @@ header {
 		font-size: 32px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		margin-top: -10px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1209,18 +1141,18 @@ header {
 		color: black;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		text-align: center;
 		margin-top: 20px;
 	}
 	
-	#saibahistoria {
+	.saibahistoria {
 		margin-top: 5px;
 		font-size: 20px;
 		padding: 5px;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 30px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1228,16 +1160,16 @@ header {
 		font-size: 30px;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		text-align: center;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		margin-top: -10px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1251,16 +1183,16 @@ header {
 
 @media(min-width: 581px) and (max-width: 680px) {
 	
-	#terapias {
+	.terapias {
 		height: 260px;
 		margin-top: 10px;
 	}
 	
-	#historia2 {
+	.historia2 {
 		height: 220px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 20px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1268,7 +1200,7 @@ header {
 		font-size: 32px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		margin-top: -10px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1278,16 +1210,16 @@ header {
 		color: black;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		margin-top: 20px;
 		text-align: center;
 	}
 	
-	#saibahistoria {
+	.saibahistoria {
 		font-size: 20px;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 5px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1295,16 +1227,16 @@ header {
 		font-size: 30px;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		font-size: 20px;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		text-align: center;
 		margin-top: 13px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		margin-top: -15px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1318,16 +1250,16 @@ header {
 
 @media(min-width: 481px) and (max-width: 580px) {
 	
-	#terapias {
+	.terapias {
 		height: 220px;
 		margin-top: 10px;
 	}
 	
-	#historia2 {
+	.historia2 {
 		height: 220px;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 10px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1335,7 +1267,7 @@ header {
 		font-size: 32px;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		margin-top: -15px;
 		max-width: 75%;
 		margin-left: auto;
@@ -1345,21 +1277,21 @@ header {
 		color: black;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		margin-top: 20px;
 		text-align: center;
 	}
 	
-	#saibahistoria {
+	.saibahistoria {
 		font-size: 20px;
 	}
 	
-	#centralizar-saiba2 {
+	.centralizar-saiba2 {
 		text-align: center;
 		margin-top: 10px;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 0px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1367,12 +1299,12 @@ header {
 		font-size: 30px;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		font-size: 15px;
 		padding: 5px;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		margin-top: -15px;
 		max-width: 85%;
 		margin-left: auto;
@@ -1389,10 +1321,10 @@ header {
 	@font-face {
 		font-family: "Ink Free";
 		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
 	}
 	
-	#fotoinicio img {
+	.fotoinicio img {
 		margin-top: 150px; 
 	}
 	
@@ -1403,33 +1335,33 @@ header {
 	@font-face {
 		font-family: "Ink Free";
 		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
 	}
 	
-	#fotoinicio img {
+	.fotoinicio img {
 		margin-top: 150px; 
 	}
 	
-	#rodape {
+	.rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 90px;
 	}
 	
-	#rodapetexto {
+	.rodapetexto {
 		justify-content: center;
 		vertical-align: middle;
 		width: 100%;
 		text-align: justify;
 	}
 	
-	#rodapetexto p {
+	.rodapetexto p {
 		padding-top: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
 	
-	#rodapeimg {
+	.rodapeimg {
 		width: 100%;
 		vertical-align: middle;
 	}
@@ -1441,33 +1373,33 @@ header {
 	@font-face {
 		font-family: "Ink Free";
 		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
 	}
 	
-	#fotoinicio img {
+	.fotoinicio img {
 		margin-top: 150px; 
 	}
 	
-	#rodape {
+	.rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 110px;
 	}
 	
-	#rodapetexto {
+	.rodapetexto {
 		justify-content: center;
 		vertical-align: middle;
 		width: 100%;
 		text-align: justify;
 	}
 	
-	#rodapetexto p {
+	.rodapetexto p {
 		padding-top: 10px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 	
-	#rodapeimg {
+	.rodapeimg {
 		padding-top: 5px;
 		width: 100%;
 		vertical-align: middle;
@@ -1480,29 +1412,29 @@ header {
 	@font-face {
 		font-family: "Ink Free";
 		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
 	}
 	
-	#fotoinicio img {
+	.fotoinicio img {
 		margin-top: 150px;
 	}
 	
-	/* #cssSlider {
+	/* .cssSlider {
 		width: 400px;
 		margin-left: 0px;
 		}
 		
-		#sliderImages {
+		.sliderImages {
 		width: 2000px;
 	} */
 	
-	#historia2 {
+	.historia2 {
 		margin-top: 10px;
 		background-position: top 0px left -150px;
 		background-size: cover;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 35px;
 		margin-left: 25px;
 		text-align: center;
@@ -1514,7 +1446,7 @@ header {
 		margin-right: auto;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		margin-left: 25px;
 		font-size: 25px;
 		background-color: rgba(246, 232, 232, 0.8);
@@ -1524,30 +1456,30 @@ header {
 		margin-right: auto;
 	}
 	
-	#centralizar-saiba1, #centralizar-saiba2 {
+	.centralizar-saiba1, .centralizar-saiba2 {
 		text-align: center;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		margin-top: 20px;
 	}
 	
-	#saibahistoria {
+	.saibahistoria {
 		background: rgba(246, 232, 232, 0.8);
 		color: black;
 		text-align: center;
 	}
 	
-	#saibahistoria a {
+	.saibahistoria a {
 		color: black;
 	}
 	
-	#terapias {
+	.terapias {
 		margin-top: 10px;
 		background-size: cover;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 25px;
 		font-size: 40px;
 		color: black;
@@ -1557,7 +1489,7 @@ header {
 		margin-right: auto;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		font-size: 24px;
 		color: black;
 		max-width: 80%;
@@ -1565,22 +1497,22 @@ header {
 		margin-right: auto;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		font-size: 20px;
 		text-align: center;
 	}
 	
-	/* #feminino { 
+	/* .feminino { 
 		margin-left: 0px;
 		width: 360px;
 		}
 		
-		#feminino h1 { 
+		.feminino h1 { 
 		font-size: 25px;
 		margin-left: 0px;
 		}
 		
-		#feminino p { 
+		.feminino p { 
 		margin-left: 0px;
 		font-size: 20px;
 		}
@@ -1590,27 +1522,27 @@ header {
 		margin-left: 50px;
 	} */
 	
-	#consulta {
+	.consulta {
 		margin-top: 20px;
 		width: 310px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
-	#consulta h1 {
+	.consulta h1 {
 		font-size: 28px;
 	}
 	
-	#consulta p {
+	.consulta p {
 		font-size: 22px;
 		text-align: justify;
 	}
 	
-	#agenda {
+	.agenda {
 		margin-top: 15px;
 	}
 	
-	#blog-textos, #blog-textos2 {
+	.blog-textos, .blog-textos2 {
 		text-align: center;
 		float: none;
 		margin-left: auto;
@@ -1619,47 +1551,47 @@ header {
 		max-width: 85%;
 	}
 	
-	#parcerias {
+	.parcerias {
 		margin-top: -20px;
 	}
 	
-	#parcerias h1 {
+	.parcerias h1 {
 		font-size: 30px;
 	}
 	
-	#parcerias p {
+	.parcerias p {
 		font-size: 25px;
 	}
 	
-	#redessociais h1 {
+	.redessociais h1 {
 		font-size: 30px;
 	}
 	
-	#rodape {
+	.rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 120px;
 	}
 	
-	#rodapetexto {
+	.rodapetexto {
 		justify-content: center;
 		vertical-align: middle;
 		width: 100%;
 		text-align: justify;
 	}
 	
-	#rodapetexto p {
+	.rodapetexto p {
 		padding-top: 10px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
 	
-	#rodapeimg {
+	.rodapeimg {
 		width: 100%;
 		vertical-align: middle;
 	}
 	
-	#img-1 img, #img-2 img {
+	.img-1 img, .img-2 img {
 		width: 40px;
 		height: 40px;
 	}
@@ -1671,16 +1603,16 @@ header {
 	@font-face {
 		font-family: "Ink Free";
 		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot");
-		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg#Ink Free") format("svg");
+		src: url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.eot?.iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.woff") format("woff"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0801c08e5412f54e4b4e9ad146d83a12.svg.Ink Free") format("svg");
 	}
 	
-	#historia2 {
+	.historia2 {
 		margin-top: 10px;
 		background-position: top 0px left -150px;
 		background-size: cover;
 	}
 	
-	#historia2-texto h1 {
+	.historia2-texto h1 {
 		padding-top: 25px;
 		margin-left: 25px;
 		text-align: center;
@@ -1692,7 +1624,7 @@ header {
 		margin-right: auto;
 	}
 	
-	#historia2-texto p {
+	.historia2-texto p {
 		margin-left: 25px;
 		font-size: 25px;
 		background-color: rgba(246, 232, 232, 0.8);
@@ -1702,30 +1634,30 @@ header {
 		margin-right: auto;
 	}
 	
-	#centralizar-saiba1, #centralizar-saiba2 {
+	.centralizar-saiba1, .centralizar-saiba2 {
 		text-align: center;
 	}
 	
-	#centralizar-saiba1 {
+	.centralizar-saiba1 {
 		margin-top: 20px;
 	}
 	
-	#saibahistoria {
+	.saibahistoria {
 		background: rgba(246, 232, 232, 0.8);
 		color: black;
 		text-align: center;
 	}
 	
-	#saibahistoria a {
+	.saibahistoria a {
 		color: black;
 	}
 	
-	#terapias {
+	.terapias {
 		margin-top: 10px;
 		background-size: cover;
 	}
 	
-	#terapias-texto h1 {
+	.terapias-texto h1 {
 		padding-top: 25px;
 		font-size: 40px;
 		color: black;
@@ -1735,7 +1667,7 @@ header {
 		margin-right: auto;
 	}
 	
-	#terapias-texto p {
+	.terapias-texto p {
 		font-size: 22px;
 		color: black;
 		max-width: 80%;
@@ -1743,16 +1675,16 @@ header {
 		margin-right: auto;
 	}
 	
-	#saibaterapias {
+	.saibaterapias {
 		font-size: 20px;
 		text-align: center;
 	}
 	
-	#consulta h1 {
+	.consulta h1 {
 		font-size: 28px;
 	}
 	
-	#consulta p {
+	.consulta p {
 		font-size: 22px;
 		text-align: justify;
 		max-width: 80%;
@@ -1760,11 +1692,11 @@ header {
 		margin-right: auto;
 	}
 	
-	#agenda {
+	.agenda {
 		margin-top: 15px;
 	}
 	
-	#blog-textos, #blog-textos2 {
+	.blog-textos, .blog-textos2 {
 		text-align: center;
 		float: none;
 		margin-left: auto;
@@ -1773,47 +1705,47 @@ header {
 		max-width: 85%;
 	}
 	
-	#blog-textos2 {
+	.blog-textos2 {
 		margin-top: 75px;
 	}
 	
-	#imagem-blog2 img, #imagem-blog1 img {
+	.imagem-blog2 img, .imagem-blog1 img {
 		max-width: 100%;
 	}
 	
-	#parcerias {
+	.parcerias {
 		margin-top: -10px;
 	}
 	
-	#rodape {
+	.rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 140px;
 		width: 100%;
 	}
 	
-	#rodapetexto {
+	.rodapetexto {
 		justify-content: center;
 		text-align: justify;
 	}
 	
-	#rodapetexto p {
+	.rodapetexto p {
 		font-size: 15px;
 		padding-top: 10px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
 	
-	#rodapeimg {
+	.rodapeimg {
 		vertical-align: middle;
 	}
 	
-	#img-1 img, #img-2 img {
+	.img-1 img, .img-2 img {
 		width: 40px;
 		height: 40px;
 	}
 	
-	#whatsapp {
+	.whatsapp {
 		top: 84%;
 		left: 77%;
 	}
