@@ -8,21 +8,25 @@ body {
 	width: 100%;
 }
 
-.row {
+#titulo {
+	padding-top: 25px;
+}
+
+#row {
 	box-sizing: border-box;
 }
 
-.card {
+#card {
 	box-sizing: border-box;
 }
 
-.leftcolumn {
+#leftcolumn {
 	float: left;
 	width: 75%;
 	box-sizing: border-box;
 }
 
-.leftcolumn h2 {
+#leftcolumn h2 {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
@@ -30,12 +34,12 @@ body {
 	color: black; 
 }
 
-.leftcolumn h2 a {
+#leftcolumn h2 a {
 	text-decoration: none;
 	color: black;
 }
 
-.leftcolumn p {
+#leftcolumn p {
 	text-align: justify;
 	font-family: Calibri;
 	font-size: 20px; 
@@ -46,13 +50,13 @@ body {
 	padding-bottom: 15px;
 }
 
-.leftcolumn p a {
+#leftcolumn p a {
 	text-decoration: none;
 	color: blue;
 	font-family: Arial;
 }
 
-.rightcolumn {
+#rightcolumn {
 	float: left;
 	width: 25%;
 	padding-left: 20px;
@@ -60,19 +64,19 @@ body {
 	height: auto;
 }
 
-.rightcolumn h3 {
+#rightcolumn h3 {
 	text-align: center;
 	font-size: 25px; 
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.rightcolumn p {
+#rightcolumn p {
 	text-align: center;
 	font-size: 25px; 
 }
 
-.rightcolumn a {
+#rightcolumn a {
 	text-decoration: none;
 	color: black;
 }
@@ -96,7 +100,7 @@ body {
 	float: left;
 }
 
-.img img {
+#img img {
 	width: 600px;
 	height: 400px;
 	display: block; 
@@ -104,30 +108,17 @@ body {
 	margin-right: auto;
 }
 
-.card {
+#card {
 	background-color: white;
 	margin-top: 20px;
 	height: auto;
 }
 
-.row:after { 
+#row:after { 
 	content: "";
 	display: table;
 	clear: both;
 }
-
-/* .categoria {
-	margin-top: 30px;
-	font-size: 20px;
-	font-family: berlin sans FB;
-	line-height: 5px;
-	}
-	
-	.categoria a {
-	text-decoration: none;
-	color: black;
-	font-family: berlin sans FB;
-} */
 
 #rodape {
 	display: flex;
@@ -185,11 +176,11 @@ body {
 
 @media(min-width: 481px) and (max-width: 767px) {
 	
-	.leftcolumn {
+	#leftcolumn {
 		width: 100%;
 	}
 	
-	.rightcolumn {
+	#rightcolumn {
 		width: 200px;
 	}
 	
@@ -197,7 +188,7 @@ body {
 
 @media(min-width: 481px) and (max-width: 979px) {
 	
-	.img img {
+	#img img {
 		max-width: 100%;
 		height: auto;
 	}
@@ -283,22 +274,22 @@ body {
 		margin-top: 140px;
 	}
 	
-	.leftcolumn {
+	#leftcolumn {
 		height: auto;
 		width: 100%;
 	}
 	
-	.leftcolumn p {
+	#leftcolumn p {
 		max-width: 100%;
 		max-height: 100%;
 	}
 	
-	.img img {
+	#img img {
 		max-width: 100%;
 		height: auto;
 	} 
 	
-	.rightcolumn {
+	#rightcolumn {
 		width: 200px;
 	}
 	
