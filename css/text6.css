@@ -8,20 +8,21 @@ body {
 	font-size: 35px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-family: "Ink Free";
+	font-family: 'Satisfy', cursive;
 }
 
 #rodape {
-	margin-top: -60px;
-	width: 100%;
-	height: 60px;
-}
-
-#colunafooter {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	height: 60px;
+	background-color: rgba(252, 252, 252, 0.5);
+	width: 100%;
+	position: relative;
+	margin: 0;
+	margin-top: 30px;
+	width: 100%;
 }
 
 #rodapetexto {
@@ -29,14 +30,13 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	height: 60px;
+	margin: 0;
 	color: black;
-	font-size: 18px;
+	font-size: 18px; 
 	font-family: Calibri;
 	width: 70%;
 	float: left;
-	height: 60px;
-	margin: 0;
-	background-color: rgba(252, 252, 252, 0.5);
 }
 
 #rodapetexto p {
@@ -48,11 +48,10 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	float: right;
-	width: 30%;
-	margin: 0;
 	height: 60px;
-	background-color: rgba(252, 252, 252, 0.5);
+	float: right;
+	margin: 0;
+	width: 30%;
 }
 
 #img-1 img, #img-2 img {
@@ -65,106 +64,55 @@ body {
 @media(min-width: 701px) and (max-width: 979px) {
 	
 	#rodape {
-		margin-top: -60px;
-		clear: both;
-		float: none;
-		height: 60px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
+		margin-top: 30px;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		height: 90px;
 	}
 	
 	#rodapetexto {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
 		justify-content: center;
-		color: black;
-		font-size: 18px;
-		width: 100%;
 		vertical-align: middle;
-		margin: 0;
-		height: 35px;
+		width: 100%;
+		text-align: justify;
 	}
 	
 	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
-		padding-top: 5px;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 	
 	#rodapeimg {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
 		width: 100%;
-		margin: 0;
+		vertical-align: middle;
 	}
-	
 }
 
 @media(max-width: 700px) {
 	
 	#rodape {
-		margin-top: -75px;
-		clear: both;
-		float: none;
-		height: 75px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
+		margin-top: 30px;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		height: 110px;
 	}
 	
 	#rodapetexto {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
 		justify-content: center;
-		color: black;
-		font-size: 18px;
-		font-family: Calibri;
-		width: 100%;
 		vertical-align: middle;
-		margin: 0;
-		height: 45px;
+		width: 100%;
+		text-align: justify;
 	}
 	
 	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
 		padding-top: 10px;
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	
 	#rodapeimg {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
+		padding-top: 5px;
 		width: 100%;
-		margin: 0;
+		vertical-align: middle;
 	}
 	
 }
@@ -172,53 +120,32 @@ body {
 @media(max-width: 480px) {
 	
 	#rodape {
-		margin-top: -110px;
-		clear: both;
-		float: none;
-		height: 110px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
+		margin-top: 30px;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		height: 120px;
 	}
 	
 	#rodapetexto {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
 		justify-content: center;
-		color: black;
-		font-size: 18px;
-		font-family: Calibri;
-		width: 100%;
 		vertical-align: middle;
-		margin: 0;
-		height: 70px;
+		width: 100%;
+		text-align: justify;
 	}
 	
 	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
-		padding-top: 5px;
+		padding-top: 10px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
 	
 	#rodapeimg {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
 		width: 100%;
-		margin: 0;
+		vertical-align: middle;
+	}
+	
+	#img-1 img, #img-2 img {
+		width: 40px;
+		height: 40px;
 	}
 	
 }
@@ -226,53 +153,31 @@ body {
 @media(max-width: 330px) {
 	
 	#rodape {
-		clear: both;
-		float: none;
-		height: 140px;
-		margin-top: -140px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
+		margin-top: 30px;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		height: 140px;
+		width: 100%;
 	}
 	
 	#rodapetexto {
-		margin: 0;
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
 		justify-content: center;
-		color: black;
-		font-size: 18px;
-		font-family: Calibri;
-		width: 100%;
-		vertical-align: middle;
-		height: 110px;
+		text-align: justify;
 	}
 	
 	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
-		padding-top: 5px;
+		font-size: 15px;
+		padding-top: 10px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
 	
 	#rodapeimg {
-		margin: 0;
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
+		vertical-align: middle;
+	}
+	
+	#img-1 img, #img-2 img {
+		width: 40px;
+		height: 40px;
 	}
 	
 }
