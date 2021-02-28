@@ -13,61 +13,61 @@ body {
 	margin: 0;
 }
 
-.imagemAgenda {
+#imagemAgenda {
     width: 100%;
 }
 
-.todo {
+#todo {
 	min-height: 100%;
 }
 
-.todo-dentro {
+#todo-dentro {
 	padding-bottom: 80px;
 }
 
-.fotoagenda img {
+#fotoagenda img {
 	margin-top: 200px;
 }
 
-.agenda h2 {
+#agenda h2 {
 	margin-top: 15px;
 	font-size: 50px;
 	text-align: center;
 	color: black;
 }
 
-.agenda h3 {
+#agenda h3 {
 	font-size: 40px;
 	text-align: center;
 	color: black;
 }
 
-.agenda h4 {
+#agenda h4 {
 	font-size: 30px;
 	text-align: center;
 	color: black;
 }
 
-.agenda a {
+#agenda a {
 	color: black;
 	text-decoration: none;
 }
 
 
-.rodape {
+#rodape {
 	margin-top: -60px;
 	width: 100%;   
 	height: 60px;   
 }
 
-.colunafooter {
+#colunafooter {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 }
 
-.rodapetexto {
+#rodapetexto {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -82,11 +82,11 @@ body {
 	background-color: rgba(252, 252, 252, 0.5);
 }
 
-.rodapetexto p {
+#rodapetexto p {
 	font-family: Calibri;
 }
 
-.rodapeimg {
+#rodapeimg {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -107,7 +107,7 @@ body {
 
 @media(min-width: 980px) and (max-width: 1310px) {
 	
-	.fotoagenda img {
+	#fotoagenda img {
 		margin-top: 150px; 
 	}
 	
@@ -115,15 +115,15 @@ body {
 
 @media(min-width: 701px) and (max-width: 979px) {
 	
-	.fotoagenda img {
+	#fotoagenda img {
 		margin-top: 150px; 
 	}
 	
-	.todo-dentro {
+	#todo-dentro {
 		padding-bottom: 80px;
 	}
 	
-		.rodape {
+	#rodape {
 		margin-top: -60px;
 		clear: both;
 		float: none;
@@ -131,14 +131,14 @@ body {
 		width: 100%;
 	}
 	
-	.colunafooter {
+	#colunafooter {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		clear: both;
 		float: none;
 		display: flex;
@@ -153,7 +153,7 @@ body {
 		height: 35px;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		font-family: Calibri;
 		text-align: justify;
 		padding-top: 5px;
@@ -161,7 +161,7 @@ body {
 		padding-right: 20px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		clear: both;
 		float: none;
 		display: flex;
@@ -176,23 +176,23 @@ body {
 
 @media(max-width: 700px) {
 	
-	.fotoagenda img {
+	#fotoagenda img {
 		margin-top: 150px; 
 	}
 	
-	.agenda h3 {
+	#agenda h3 {
 		font-size: 35px;
 	}
 	
-	.agenda h4 {
+	#agenda h4 {
 		font-size: 25px;
 	}
 	
-	.todo-dentro {
+	#todo-dentro {
 		padding-bottom: 100px;
 	}
 	
-		.rodape {
+		#rodape {
 		margin-top: -75px;
 		clear: both;
 		float: none;
@@ -200,14 +200,14 @@ body {
 		width: 100%;
 	}
 	
-	.colunafooter {
+	#colunafooter {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		clear: both;
 		float: none;
 		display: flex;
@@ -223,7 +223,7 @@ body {
 		height: 45px;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		font-family: Calibri;
 		text-align: justify;
 		padding-top: 10px;
@@ -231,7 +231,7 @@ body {
 		padding-right: 30px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		clear: both;
 		float: none;
 		display: flex;
@@ -246,31 +246,31 @@ body {
 
 @media(max-width: 480px) {
 	
-	.fotoagenda img {
+	#fotoagenda img {
 		margin-top: 150px;
 	}
 	
-	.titulo {
+	#titulo {
 		height: 80px;
 	}
 	
-	.titulo h2 {
+	#titulo h2 {
 		font-size: 50px;
 	}
 	
-	.agenda h3 {
+	#agenda h3 {
 		font-size: 30px;
 	}
 	
-	.agenda h4 {
+	#agenda h4 {
 		font-size: 20px;
 	}
 	
-	.todo-dentro {
+	#todo-dentro {
 		padding-bottom: 130px;
 	}
 	
-		.footer {
+	#footer {
 		margin-top: -110px;
 		clear: both;
 		float: none;
@@ -278,14 +278,14 @@ body {
 		width: 100%;
 	}
 	
-	.colunafooter {
+	#colunafooter {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		clear: both;
 		float: none;
 		display: flex;
@@ -301,7 +301,7 @@ body {
 		height: 70px;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		font-family: Calibri;
 		text-align: justify;
 		padding-top: 5px;
@@ -309,7 +309,7 @@ body {
 		padding-right: 30px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		clear: both;
 		float: none;
 		display: flex;
@@ -324,19 +324,19 @@ body {
 
 @media(max-width: 330px) {
 	
-	.agenda h3 {
+	#agenda h3 {
 		font-size: 30px;
 	}
 	
-	.agenda h4 {
+	#agenda h4 {
 		font-size: 20px;
 	}
 	
-	.todo-dentro {
+	#todo-dentro {
 		padding-bottom: 160px;
 	}
 	
-		.footer {
+	#footer {
 		clear: both;
 		float: none;
 		height: 140px;
@@ -344,14 +344,14 @@ body {
 		width: 100%;
 	}
 	
-	.colunafooter {
+	#colunafooter {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		margin: 0;
 		clear: both;
 		float: none;
@@ -367,7 +367,7 @@ body {
 		height: 110px;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		font-family: Calibri;
 		text-align: justify;
 		padding-top: 5px;
@@ -375,7 +375,7 @@ body {
 		padding-right: 30px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		margin: 0;
 		clear: both;
 		float: none;
