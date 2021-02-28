@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 #titulo-evento h2 {
 	clear: both;
 	text-align: center;
 	font-size: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-family: "Ink Free";
+	font-family: 'Satisfy', cursive;
 }
 
 #texto {

@@ -104,6 +104,13 @@ body {
 	box-shadow: 0 0 1em #fff;
 }
 
+.texto p {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+
 .texto h3 {
 	text-align: center;
 	font-size: 30px;
