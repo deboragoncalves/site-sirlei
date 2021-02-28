@@ -13,15 +13,15 @@
 	<body>
 		
 		<header>
-			<div class="logo"><a href="index.html"><img src="../images/logo.png"></a></div>
-			<input type="checkbox" class="bt_menu" onclick="toggleMenu()">
-			<label for="bt_menu" class="labelMenu">&#9776;</label>
-			<nav class="menu">
+			<div id="logo"><a href="index.html"><img src="../images/logo.png"></a></div>
+			<input type="checkbox" id="bt_menu" onclick="toggleMenu()">
+			<label for="bt_menu" id="labelMenu">&#9776;</label>
+			<nav id="menu">
 				<ul>
 					<li><a href="historia.html">Minha história</a></li>
-					<li class="linhaTerapias" onclick="toggleTherapies()">
+					<li id="linhaTerapias" onclick="toggleTherapies()">
 						<a>Terapias</a>
-						<ul class="terapiasLista">
+						<ul id="terapiasLista">
 							<li><a href="ginecologia.html">Ginecologia Natural</a></li>
 							<li><a href="reiki.html">Reiki</a></li>
 							<li><a href="florais.html">Florais</a></li>
@@ -39,19 +39,15 @@
 			</nav>
 		</header>
 		
-		<div class="fotobarras">
-			<img class="imagemBarras" src="https://www.hostcgs.com.br/hostimagem/images/734barras2.jpg" />
+		<div id="fotobarras">
+			<img id="imagemBarras" src="https://www.hostcgs.com.br/hostimagem/images/734barras2.jpg" />
 		</div>
 		
-		<div class="titulo">
+		<div id="titulo">
 			<h2>Barras de Access</h2>
 		</div>
 		
-		<!-- <div class="imagem">
-			<img src="barras.jpg" width="50%" height="300px"><br><br>
-		</div> -->
-		
-		<div class="texto">
+		<div id="texto">
 			<p>Existem 32 pontos na cabeça que, quando tocados suavemente, acessam nossos arquivos mentais e emocionais. Durante 
 				o procedimento ocorre espontaneamente a liberação de condicionamentos, aprisionamentos e polaridades que limitam nossas vidas de forma 
 				consciente ou inconsciente.<br><br>
@@ -66,24 +62,24 @@
 			(Grary Douglas)</p>
 		</div>
 		
-		<div class="perguntas">
+		<div id="perguntas">
 			<h2>Perguntas e respostas</h2>
 		</div>
 		
-		<div class="perguntas1" onclick="mostrarEsconderResposta1()">
-			<input type="checkbox" class="pergunta1">
-			<div class="pergunta-caixa1"><p><label for="pergunta1">Como surgiu Access Consciousness?</label></p></div>
-			<div class="resposta1">
+		<div id="perguntas1" onclick="toggleAnswer1()">
+			<input type="checkbox" id="pergunta1">
+			<div id="pergunta-caixa1"><p><label for="pergunta1">Como surgiu Access Consciousness?</label></p></div>
+			<div id="resposta1">
 				<p>Gary Douglas, há mais de vinte anos, chegou a um ponto na vida 
 					em que tentava descobrir o sentido e fazia o que supunha que lhe traria 
 				felicidade.</p>
 			</div>
 		</div> 
 		
-		<div class="perguntas2" onclick="mostrarEsconderResposta2()">
-			<input type="checkbox" class="pergunta2">
-			<div class="pergunta-caixa2"><p><label for="pergunta2">Como funciona a Sessão?</label></p></div>
-			<div class="resposta2">
+		<div id="perguntas2" onclick="toggleAnswer2()">
+			<input type="checkbox" id="pergunta2">
+			<div id="pergunta-caixa2"><p><label for="pergunta2">Como funciona a Sessão?</label></p></div>
+			<div id="resposta2">
 				<p>O cliente fica deitado e o terapeuta habilitado para isso faz toques sutis 
 					e em seqüência, de 32 pontos na cabeça. Cada um corresponde a um determinado 
 					aspecto e à forma como a pessoa lida com eles, por exemplo: dinheiro, controle, 
@@ -92,10 +88,10 @@
 			</div>
 		</div>
 		
-		<div class="perguntas3" onclick="mostrarEsconderResposta3()">
-			<input type="checkbox" class="pergunta3">
-			<div class="pergunta-caixa3"><p><label for="pergunta3">Quais os benefícios da terapia?</label></p></div>
-			<div class="resposta3">
+		<div id="perguntas3" onclick="toggleAnswer3()">
+			<input type="checkbox" id="pergunta3">
+			<div id="pergunta-caixa3"><p><label for="pergunta3">Quais os benefícios da terapia?</label></p></div>
+			<div id="resposta3">
 				<p>1. Reduz sintomas de depressão e ansiedade; <br> 
 					2. Mais facilidade em lidar com todos os aspectos da sua vida; <br>
 					3. Acalma mente excessivamente activa (sempre a pensar), aumenta a concentração; <br>
@@ -110,15 +106,15 @@
 		
 		<div>
 			<a href="https://api.whatsapp.com/send?phone=5547991912407" target="_blank">
-				<img class="whatsapp" src="http://www.hostcgs.com.br/hostimagem/images/947whatsapp_48.png" />
+				<img id="whatsapp" src="http://www.hostcgs.com.br/hostimagem/images/947whatsapp_48.png" />
 			</a>
 		</div>
 		
-		<div class="rodape">
-			<div class="rodapetexto"><p>Copyright © Sirlei Sil. Todos os direitos reservados. Desenvolvido por Débora Gonçalves.</p></div>
-			<div class="rodapeimg">
-				<div class="img-1"><a href="https://www.facebook.com/sirleiaparecida.cambruzzi"><img src="https://www.hostcgs.com.br/hostimagem/images/540facebook_48.png"></a></div>
-				<div class="img-2"><a href="https://www.instagram.com/sirleisil_/"><img src="https://www.hostcgs.com.br/hostimagem/images/914instagram_48.png"></a></div>
+		<div id="rodape">
+			<div id="rodapetexto"><p>Copyright © Sirlei Sil. Todos os direitos reservados. Desenvolvido por Débora Gonçalves.</p></div>
+			<div id="rodapeimg">
+				<div id="img-1"><a href="https://www.facebook.com/sirleiaparecida.cambruzzi"><img src="https://www.hostcgs.com.br/hostimagem/images/540facebook_48.png"></a></div>
+				<div id="img-2"><a href="https://www.instagram.com/sirleisil_/"><img src="https://www.hostcgs.com.br/hostimagem/images/914instagram_48.png"></a></div>
 			</div> 
 		</div>
 	</body>

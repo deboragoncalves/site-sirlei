@@ -3,15 +3,15 @@ body {
 	color: black;
 }
 
-.imagemBarras {
+#imagemBarras {
 	width: 100%;
 }
 
-.fotobarras img {
+#fotobarras img {
 	margin-top: 200px;
 }
 
-.rodape {
+#rodape {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -25,7 +25,7 @@ body {
 	width: 100%;
 }
 
-.rodapetexto {
+#rodapetexto {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -39,11 +39,11 @@ body {
 	float: left;
 }
 
-.rodapetexto p {
+#rodapetexto p {
 	font-family: Calibri;
 }
 
-.rodapeimg {
+#rodapeimg {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -54,7 +54,7 @@ body {
 	width: 30%;
 }
 
-.img-1 img, .img-2 img {
+#img-1 img, #img-2 img {
 	float: left;
 	margin: 2px;
 	width: 43px;
@@ -63,7 +63,7 @@ body {
 
 @media(min-width: 980px) and (max-width: 1310px) {
 	
-	.fotobarras img {
+	#fotobarras img {
 		margin-top: 150px; 
 	}
 	
@@ -71,30 +71,30 @@ body {
 
 @media(min-width: 701px) and (max-width: 979px) {
 	
-	.fotobarras img {
+	#fotobarras img {
 		margin-top: 150px; 
 	}
 	
-	.rodape {
+	#rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 90px;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		justify-content: center;
 		vertical-align: middle;
 		width: 100%;
 		text-align: justify;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		padding-top: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		width: 100%;
 		vertical-align: middle;
 	}
@@ -103,31 +103,31 @@ body {
 
 @media(max-width: 700px) {
 	
-	.fotobarras img {
+	#fotobarras img {
 		margin-top: 150px; 
 	}
 	
 		
-	.rodape {
+	#rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 110px;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		justify-content: center;
 		vertical-align: middle;
 		width: 100%;
 		text-align: justify;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		padding-top: 10px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		padding-top: 5px;
 		width: 100%;
 		vertical-align: middle;
@@ -137,68 +137,68 @@ body {
 
 @media(max-width: 480px) {
 
-	.fotobarras img {
+	#fotobarras img {
 		margin-top: 150px;
 	}
 	
-	.titulo {
+	#titulo {
 		height: 130px;
 	} 
 	
-	.titulo h2 {
+	#titulo h2 {
 		font-size: 50px;
 	}
 	
-	.texto p {
+	#texto p {
 		max-width: 100%;
 	}
 	
-	.pergunta-caixa1 label, .pergunta-caixa2 label, .pergunta-caixa3 label {
+	#pergunta-caixa1 label, #pergunta-caixa2 label, #pergunta-caixa3 label {
 		font-size: 21px;
 		margin-left: 0px;
 		text-align: justify;
 	}
 	
-	.resposta1 p, .resposta2 p, .resposta3 p {
+	#resposta1 p, #resposta2 p, #resposta3 p {
 		text-align: justify;
 	}
 	
-	.pergunta-caixa1, .pergunta-caixa2, .pergunta-caixa3 {
+	#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3 {
 		height: 65px;
 	}
 	
-	.pergunta-caixa1 p, .pergunta-caixa2 p, .pergunta-caixa3 p {
+	#pergunta-caixa1 p, #pergunta-caixa2 p, #pergunta-caixa3 p {
 		padding-top: 8px; 
 		padding-left: 15px;
 		padding-right: 15px;
 		text-align: justify;
 	}
 	
-	.rodape {
+	#rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 120px;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		justify-content: center;
 		vertical-align: middle;
 		width: 100%;
 		text-align: justify;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		padding-top: 10px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		width: 100%;
 		vertical-align: middle;
 	}
 	
-	.img-1 img, .img-2 img {
+	#img-1 img, #img-2 img {
 		width: 40px;
 		height: 40px;
 	}
@@ -207,25 +207,25 @@ body {
 
 @media(max-width: 330px) {
 	
-	.perguntas h2 {
+	#perguntas h2 {
 		font-size: 24px;
 	}
 	
-	.pergunta-caixa1 label, .pergunta-caixa2 label, .pergunta-caixa3 label {
+	#pergunta-caixa1 label, #pergunta-caixa2 label, #pergunta-caixa3 label {
 		font-size: 21px;
 		margin-left: 0px;
 		text-align: justify;
 	}
 	
-	.resposta1 p, .resposta2 p, .resposta3 p {
+	#resposta1 p, #resposta2 p, #resposta3 p {
 		text-align: justify;
 	}
 	
-	.pergunta-caixa1, .pergunta-caixa2, .pergunta-caixa3 {
+	#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3 {
 		height: 65px;
 	}
 	
-	.pergunta-caixa1 p, .pergunta-caixa2 p, .pergunta-caixa3 p {
+	#pergunta-caixa1 p, #pergunta-caixa2 p, #pergunta-caixa3 p {
 		padding-top: 8px; 
 		padding-left: 15px;
 		padding-right: 15px;
@@ -233,30 +233,30 @@ body {
 	}
 	
 	
-	.rodape {
+	#rodape {
 		margin-top: 30px;
 		flex-direction: column;
 		height: 140px;
 		width: 100%;
 	}
 	
-	.rodapetexto {
+	#rodapetexto {
 		justify-content: center;
 		text-align: justify;
 	}
 	
-	.rodapetexto p {
+	#rodapetexto p {
 		font-size: 15px;
 		padding-top: 10px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
 	
-	.rodapeimg {
+	#rodapeimg {
 		vertical-align: middle;
 	}
 	
-	.img-1 img, .img-2 img {
+	#img-1 img, #img-2 img {
 		width: 40px;
 		height: 40px;
 	}

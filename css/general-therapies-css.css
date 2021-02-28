@@ -1,16 +1,16 @@
-.texto {
+#texto {
 	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.texto p {
+#texto p {
 	text-align: justify;
 	font-family: Calibri;
 	font-size: 20px;
 }
 
-.perguntas h2 {
+#perguntas h2 {
 	font-size: 28px;
 	margin-top: 15px;
 	max-width: 85%;
@@ -18,7 +18,7 @@
 	margin-right: auto;
 }
 
-.pergunta-caixa1, .pergunta-caixa2, .pergunta-caixa3, .pergunta-caixa4 {
+#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3, #pergunta-caixa4 {
 	background-color: rgba(252, 252, 252, 0.5);
 	border-radius: 10px;
 	margin: 20px;
@@ -26,48 +26,48 @@
 	box-shadow: 0 0 1em #fff;
 }
 
-.pergunta-caixa1 label, .pergunta-caixa2 label, .pergunta-caixa3 label, .pergunta-caixa4 label {
+#pergunta-caixa1 label, #pergunta-caixa2 label, #pergunta-caixa3 label, #pergunta-caixa4 label {
 	font-size: 22px;
 	margin-left: 25px;
 	text-align: justify;
 }
 
-.pergunta-caixa1 p, .pergunta-caixa2 p, .pergunta-caixa3 p, .pergunta-caixa4 p {
+#pergunta-caixa1 p, #pergunta-caixa2 p, #pergunta-caixa3 p, #pergunta-caixa4 p {
 	padding-top: 15px;
 	text-align: justify;
 }
 
-.perguntas1, .perguntas2, .perguntas3, .perguntas4 {
+#perguntas1, #perguntas2, #perguntas3, #perguntas4 {
 	cursor: pointer;
 	max-width: 85%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.perguntas1 input {
+#perguntas1 input {
 	display: none;
 }
 
-.perguntas2 input {
+#perguntas2 input {
 	display: none;
 }
 
-.perguntas3 input {
+#perguntas3 input {
 	display: none;
 }
 
-.perguntas4 input {
+#perguntas4 input {
 	display: none;
 }
 
-.resposta1, .resposta2, .resposta3, .resposta4 {
+#resposta1, #resposta2, #resposta3, #resposta4 {
 	margin: 0 15px;
 	background-color: rgba(252, 252, 252, 0.5);
 	border-radius: 12px;
 	display: none;
 }
 
-.resposta1 p, .resposta2 p, .resposta3 p, .resposta4 p {
+#resposta1 p, #resposta2 p, #resposta3 p, #resposta4 p {
 	text-align: justify;
 	max-width: 90%; 
 	margin-left: auto;
