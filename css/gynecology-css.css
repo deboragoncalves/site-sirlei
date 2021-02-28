@@ -22,6 +22,11 @@ body {
 	text-align: center;
 }
 
+
+#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3, #pergunta-caixa4 {
+	height: 60px;
+}
+
 #rodape {
 	display: flex;
 	flex-direction: row;
@@ -160,6 +165,10 @@ body {
 	#fotoginecologia img {
 		margin-top: 150px; 
 	}
+
+	#pergunta-caixa1 {
+		height: 100px;
+	}
 	
 	#rodape {
 		margin-top: 30px;
@@ -197,6 +206,10 @@ body {
 	#texto p {
 		max-width: 100%;
 	}
+
+	#pergunta-caixa1 {
+		height: 100px;
+	}
 	
 	#pergunta-caixa1 label, #pergunta-caixa2 label, #pergunta-caixa3 label {
 		font-size: 21px;
@@ -206,10 +219,6 @@ body {
 	
 	#resposta1 p, #resposta2 p, #resposta3 p {
 		text-align: justify;
-	}
-	
-	#pergunta-caixa1 {
-		height: 80px;
 	}
 	
 	#pergunta-caixa2, #pergunta-caixa3 {
