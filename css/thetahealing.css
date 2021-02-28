@@ -22,6 +22,10 @@ body {
 	text-align: center;
 }
 
+#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3, #pergunta-caixa4 {
+	height: 60px;
+}
+
 #rodape {
 	display: flex;
 	flex-direction: row;
@@ -141,6 +145,10 @@ body {
 	#fototheta img {
 		margin-top: 150px; 
 	}
+
+	#pergunta-caixa3 {
+		height: 80px;
+	}	
 	
 	#rodape {
 		margin-top: 30px;
@@ -189,10 +197,6 @@ body {
 		max-width: 100%;
 	}
 	
-	/* #imagem img {
-		width: 100%;
-	} */
-	
 	#pergunta-caixa1 label, #pergunta-caixa2 label, #pergunta-caixa3 label, #pergunta-caixa4 label {
 		font-size: 21px;
 		margin-left: 0px;
@@ -203,9 +207,13 @@ body {
 		text-align: justify;
 	}
 	
-	#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa3, #pergunta-caixa4 {
+	#pergunta-caixa1, #pergunta-caixa2, #pergunta-caixa4 {
 		height: 65px;
 	}
+
+	#pergunta-caixa3 {
+		height: 80px;
+	}	
 	
 	#pergunta-caixa1 p, #pergunta-caixa2 p, #pergunta-caixa3 p, #pergunta-caixa4 p {
 		padding-top: 8px;
