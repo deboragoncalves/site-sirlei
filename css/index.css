@@ -523,7 +523,7 @@ header {
 	width: 30%;
 }
 
-#img-1 img, .img-2 img {
+#img-1 img, #img-2 img {
 	float: left;
 	margin: 2px;
 	width: 43px;
@@ -1540,7 +1540,7 @@ header {
 		vertical-align: middle;
 	}
 	
-	#img-1 img, .img-2 img {
+	#img-1 img, #img-2 img {
 		width: 40px;
 		height: 40px;
 	}
@@ -1683,7 +1683,7 @@ header {
 		vertical-align: middle;
 	}
 	
-	#img-1 img, .img-2 img {
+	#img-1 img, #img-2 img {
 		width: 40px;
 		height: 40px;
 	}

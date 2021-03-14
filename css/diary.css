@@ -98,7 +98,7 @@ body {
 	background-color: rgba(252, 252, 252, 0.5);
 }
 
-.img-1 img, .img-2 img {
+#img-1 img, #img-2 img {
 	float: left;
 	margin: 2px;
 	width: 43px;
