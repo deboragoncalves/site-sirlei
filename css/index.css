@@ -530,29 +530,7 @@ header {
 	height: 43px;
 }
 
-@media(min-width: 1201px) and (max-width: 1310px) {
-	
-	#menu { 
-		margin-top: -90px;
-		font-size: 25px;
-	}
-	
-	#menu ul li {
-		text-align: center;
-		padding-right: 0;
-		padding-left: 55px;
-		float: left; 
-	}
-	
-	#logo img {
-		width: 250px;
-		height: 150px;
-		margin-left: -30px;
-	}
-	
-}
-
-@media(max-width: 1200px) {
+@media(max-width: 1300px) {
 	
 	#labelMenu {
 		margin-top: -120px;
