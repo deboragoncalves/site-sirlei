@@ -1,389 +1,379 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 html {
-	height: 100%;
-	margin: 0;
-	font-family: 'Satisfy', cursive;
+  height: 100%;
+  margin: 0;
+  font-family: "Satisfy", cursive;
 }
 
 body {
-	background-color: #D79B9B;
-	color: black;
-	height: 100%;
-	margin: 0;
+  background-color: #d79b9b;
+  color: black;
+  height: 100%;
+  margin: 0;
 }
 
 #imagemAgenda {
-    width: 100%;
+  width: 100%;
 }
 
 #todo {
-	min-height: 100%;
+  min-height: 100%;
 }
 
 #todo-dentro {
-	padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 #fotoagenda img {
-	margin-top: 200px;
+  margin-top: 200px;
 }
 
 #agenda h2 {
-	margin-top: 15px;
-	font-size: 50px;
-	text-align: center;
-	color: black;
+  margin-top: 15px;
+  font-size: 50px;
+  text-align: center;
+  color: black;
 }
 
 #agenda h3 {
-	font-size: 40px;
-	text-align: center;
-	color: black;
+  font-size: 40px;
+  text-align: center;
+  color: black;
 }
 
 #agenda h4 {
-	font-size: 30px;
-	text-align: center;
-	color: black;
+  font-size: 30px;
+  text-align: center;
+  color: black;
 }
 
 #agenda a {
-	color: black;
-	text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
-
 #rodape {
-	margin-top: -60px;
-	width: 100%;   
-	height: 60px;   
+  margin-top: -60px;
+  width: 100%;
+  height: 60px;
 }
 
 #colunafooter {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #rodapetexto {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	color: black;
-	font-size: 18px; 
-	font-family: Calibri;
-	width: 70%;
-	float: left;
-	height: 60px;
-	margin: 0;
-	background-color: rgba(252, 252, 252, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-family: Calibri;
+  width: 70%;
+  float: left;
+  height: 60px;
+  margin: 0;
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
 #rodapetexto p {
-	font-family: Calibri;
+  font-family: Calibri;
 }
 
 #rodapeimg {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	float: right;
-	width: 30%;
-	margin: 0;
-	height: 60px;
-	background-color: rgba(252, 252, 252, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 30%;
+  margin: 0;
+  height: 60px;
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
-#img-1 img, #img-2 img {
-	float: left;
-	margin: 2px;
-	width: 43px;
-	height: 43px;
+#img-1 img,
+#img-2 img {
+  float: left;
+  margin: 2px;
+  width: 43px;
+  height: 43px;
 }
 
-@media(min-width: 980px) and (max-width: 1310px) {
-	
-	#fotoagenda img {
-		margin-top: 150px; 
-	}
-	
+@media (min-width: 980px) and (max-width: 1310px) {
+  #fotoagenda img {
+    margin-top: 150px;
+  }
 }
 
-@media(min-width: 701px) and (max-width: 979px) {
-	
-	#fotoagenda img {
-		margin-top: 150px; 
-	}
-	
-	#todo-dentro {
-		padding-bottom: 80px;
-	}
-	
-	#rodape {
-		margin-top: -60px;
-		clear: both;
-		float: none;
-		height: 60px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	#rodapetexto {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		color: black;
-		font-size: 18px; 
-		width: 100%;
-		vertical-align: middle;
-		margin: 0;
-		height: 35px;
-	}
-	
-	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
-		padding-top: 5px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	
-	#rodapeimg {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		margin: 0;
-	}
-	
+@media (min-width: 701px) and (max-width: 979px) {
+  #fotoagenda img {
+    margin-top: 150px;
+  }
+
+  #todo-dentro {
+    padding-bottom: 80px;
+  }
+
+  #rodape {
+    margin-top: -60px;
+    clear: both;
+    float: none;
+    height: 60px;
+    width: 100%;
+  }
+
+  #colunafooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rodapetexto {
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    height: 35px;
+  }
+
+  #rodapetexto p {
+    font-family: Calibri;
+    text-align: justify;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #rodapeimg {
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
 }
 
-@media(max-width: 700px) {
-	
-	#fotoagenda img {
-		margin-top: 150px; 
-	}
-	
-	#agenda h3 {
-		font-size: 35px;
-	}
-	
-	#agenda h4 {
-		font-size: 25px;
-	}
-	
-	#todo-dentro {
-		padding-bottom: 100px;
-	}
-	
-		#rodape {
-		margin-top: -75px;
-		clear: both;
-		float: none;
-		height: 75px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	#rodapetexto {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		color: black;
-		font-size: 18px; 
-		font-family: Calibri;
-		width: 100%;
-		vertical-align: middle;
-		margin: 0;
-		height: 45px;
-	}
-	
-	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
-		padding-top: 10px;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	
-	#rodapeimg {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		margin: 0;
-	}
-	
+@media (max-width: 700px) {
+  #fotoagenda img {
+    margin-top: 150px;
+  }
+
+  #agenda h3 {
+    font-size: 35px;
+  }
+
+  #agenda h4 {
+    font-size: 25px;
+  }
+
+  #todo-dentro {
+    padding-bottom: 100px;
+  }
+
+  #rodape {
+    margin-top: -75px;
+    clear: both;
+    float: none;
+    height: 75px;
+    width: 100%;
+  }
+
+  #colunafooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rodapetexto {
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    font-family: Calibri;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    height: 45px;
+  }
+
+  #rodapetexto p {
+    font-family: Calibri;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #rodapeimg {
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
 }
 
-@media(max-width: 480px) {
-	
-	#fotoagenda img {
-		margin-top: 150px;
-	}
-	
-	#titulo {
-		height: 80px;
-	}
-	
-	#titulo h2 {
-		font-size: 50px;
-	}
-	
-	#agenda h3 {
-		font-size: 30px;
-	}
-	
-	#agenda h4 {
-		font-size: 20px;
-	}
-	
-	#todo-dentro {
-		padding-bottom: 130px;
-	}
-	
-	#footer {
-		margin-top: -110px;
-		clear: both;
-		float: none;
-		height: 110px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	#rodapetexto {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		color: black;
-		font-size: 18px; 
-		font-family: Calibri;
-		width: 100%;
-		vertical-align: middle;
-		margin: 0;
-		height: 70px;
-	}
-	
-	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
-		padding-top: 5px;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	
-	#rodapeimg {
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		margin: 0;
-	}
-	
+@media (max-width: 480px) {
+  #fotoagenda img {
+    margin-top: 150px;
+  }
+
+  #titulo {
+    height: 80px;
+  }
+
+  #titulo h2 {
+    font-size: 50px;
+  }
+
+  #agenda h3 {
+    font-size: 30px;
+  }
+
+  #agenda h4 {
+    font-size: 20px;
+  }
+
+  #todo-dentro {
+    padding-bottom: 130px;
+  }
+
+  #footer {
+    margin-top: -110px;
+    clear: both;
+    float: none;
+    height: 110px;
+    width: 100%;
+  }
+
+  #colunafooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rodapetexto {
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    font-family: Calibri;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    height: 70px;
+  }
+
+  #rodapetexto p {
+    font-family: Calibri;
+    text-align: justify;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #rodapeimg {
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
 }
 
-@media(max-width: 330px) {
-	
-	#agenda h3 {
-		font-size: 30px;
-	}
-	
-	#agenda h4 {
-		font-size: 20px;
-	}
-	
-	#todo-dentro {
-		padding-bottom: 160px;
-	}
-	
-	#footer {
-		clear: both;
-		float: none;
-		height: 140px;
-		margin-top: -140px;
-		width: 100%;
-	}
-	
-	#colunafooter {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	#rodapetexto {
-		margin: 0;
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		color: black;
-		font-size: 18px; 
-		font-family: Calibri;
-		width: 100%;
-		vertical-align: middle;
-		height: 110px;
-	}
-	
-	#rodapetexto p {
-		font-family: Calibri;
-		text-align: justify;
-		padding-top: 5px;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	
-	#rodapeimg {
-		margin: 0;
-		clear: both;
-		float: none;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-	}
-	
-}		
+@media (max-width: 330px) {
+  #agenda h3 {
+    font-size: 30px;
+  }
+
+  #agenda h4 {
+    font-size: 20px;
+  }
+
+  #todo-dentro {
+    padding-bottom: 160px;
+  }
+
+  #footer {
+    clear: both;
+    float: none;
+    height: 140px;
+    margin-top: -140px;
+    width: 100%;
+  }
+
+  #colunafooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rodapetexto {
+    margin: 0;
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    font-family: Calibri;
+    width: 100%;
+    vertical-align: middle;
+    height: 110px;
+  }
+
+  #rodapetexto p {
+    font-family: Calibri;
+    text-align: justify;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #rodapeimg {
+    margin: 0;
+    clear: both;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}

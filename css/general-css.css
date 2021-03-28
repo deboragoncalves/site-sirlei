@@ -1,237 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	font-family: 'Satisfy', cursive;
+  margin: 0;
+  padding: 0;
+  font-family: "Satisfy", cursive;
 }
 
 header {
-	position: fixed; 
-	top: 0; 
-	left: 0;
-	width: 100%; 
-	background-color: white; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
 }
 
 #logo img {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 200px;
 }
 
-
 #menu {
-    margin-top: -100px;
-    width: 1100px;
-	height: 200px;
-	position: fixed;
-	right: 0;
-	font-size: 30px;
+  margin-top: -100px;
+  width: 1100px;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  font-size: 30px;
 }
 
 #menu ul {
-	list-style: none;
-	position: relative;
+  list-style: none;
+  position: relative;
 }
 
 #menu ul li {
-	text-align: center;
-	float: left;
-	cursor: pointer;
-	padding: 15px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  padding: 15px;
 }
 
 #menu a {
-	padding: 6px;
-	display: block;
-	text-decoration: none;
-	color: black;
-	width: 100%;
+  padding: 6px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
 }
 
 #terapiasLista {
-	position: absolute;
-	display: none;
-	background-color: white;
-	color: black;
-	text-align: left;
-	padding-left: 0px;
-	padding-right: 0px;
-	cursor: pointer;
-	font-size: 28px;
+  position: absolute;
+  display: none;
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  cursor: pointer;
+  font-size: 28px;
 }
 
 #menu ul li ul li {
-	background-color: white;
-	color: black;
-	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin: 0px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
 }
 
 #menu ul li ul li a {
-	background-color: white;
-	color: black;
-	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin: 0px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
 }
 
 #menu a:hover {
-	background-color: #D79B9B;
-	color: white;
-	width: 100%;
+  background-color: #d79b9b;
+  color: white;
+  width: 100%;
 }
 
 #labelMenu {
-	background-color: white;
-	color: #C14242;
-	font-size: 30px;
-	cursor: pointer;
-	display: none;
+  background-color: white;
+  color: #c14242;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
 }
 
 #bt_menu {
-	display: none;
+  display: none;
 }
 
 #titulo {
-	height: 100px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #titulo h2 {
-	font-size: 60px;
-	color: black;
-	text-align: center;
+  font-size: 60px;
+  color: black;
+  text-align: center;
 }
 
 #whatsapp {
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	z-index: 999;
-	width: 60px; 
-	height: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
 }
 
-@media(min-width: 1201px) and (max-width: 1310px) {
-	
-	#menu { 
-		margin-top: -90px;
-		font-size: 25px;
-	}
-	
-	#menu ul li {
-		text-align: center;
-		padding-right: 0;
-		padding-left: 55px;
-		float: left; 
-	}
-	
-	#logo img {
-		width: 250px;
-		height: 150px;
-		margin-left: -30px;
-	}
+@media (min-width: 1201px) and (max-width: 1310px) {
+  #menu {
+    margin-top: -90px;
+    font-size: 25px;
+  }
 
+  #menu ul li {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 55px;
+    float: left;
+  }
+
+  #logo img {
+    width: 250px;
+    height: 150px;
+    margin-left: -30px;
+  }
 }
 
-@media(max-width: 1300px) {
-	
-	#labelMenu {
-		margin-top: -120px;
-		float: right;
-		z-index: 1000000000000000000000;
-		color: #C14242;
-		display: block;
-		padding-top: 25px;
-		padding-right: 15px;
-		padding-left: 15px;
-		right: 0px;
-		background-color: white;
-		color: #C14242;
-		position: fixed;
-	}
-	
-	#bt_menu:checked ~ #menu {
-		-webkit-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
-		-moz-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
-		-o-transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
-		transition: all 0.4s cubic-bezier(.17,.67,.83,.67);
-	}
-	
-	#logo {
-		margin-right: 100px;
-	}
-	
-	#logo img {
-		width: 250px;
-		height: 150px;
-	}
-	
-	#menu {
-		width: 100%;
-		height: 100%;
-		display: none;
-		z-index: 999;
-		background-color: white;
-		font-size: 25px;
-	}
-	
-	#menu ul {
-		width: 100%;
-		height: 100%;
-		background-color: white;
-	}
-	
-	#menu ul li {
-		width: 100%;
-		padding: 5px 0px;
-		z-index: 999;
-		background-color: white;
-	}
-	
-	#menu ul ul {
-		min-width: 100%;
-		padding: 0;
-		margin: 0;
-		text-align: center;
-	}
-	
-	#terapiasLista {
-		display: none;
-	}
-	
-	#menu ul ul li {
-		min-width: 100%;
-		height: 40px;
-		color: black;
-		font-size: 23px;
-		background-color: #D79B9B;
-		padding: 20px 0px;
-		margin: 0;
-	}
-	
-	#menu ul ul li a {
-		padding: 20px 0px;
-	}
-	
+@media (max-width: 1300px) {
+  #labelMenu {
+    margin-top: -120px;
+    float: right;
+    z-index: 1000000000000000000000;
+    color: #c14242;
+    display: block;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    right: 0px;
+    background-color: white;
+    color: #c14242;
+    position: fixed;
+  }
+
+  #bt_menu:checked ~ #menu {
+    -webkit-transition: all 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    -moz-transition: all 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    -o-transition: all 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    transition: all 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  }
+
+  #logo {
+    margin-right: 100px;
+  }
+
+  #logo img {
+    width: 250px;
+    height: 150px;
+  }
+
+  #menu {
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 999;
+    background-color: white;
+    font-size: 25px;
+  }
+
+  #menu ul {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+
+  #menu ul li {
+    width: 100%;
+    padding: 5px 0px;
+    z-index: 999;
+    background-color: white;
+  }
+
+  #menu ul ul {
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  #terapiasLista {
+    display: none;
+  }
+
+  #menu ul ul li {
+    min-width: 100%;
+    height: 40px;
+    color: black;
+    font-size: 23px;
+    background-color: #d79b9b;
+    padding: 20px 0px;
+    margin: 0;
+  }
+
+  #menu ul ul li a {
+    padding: 20px 0px;
+  }
 }
 
-@media(max-width: 330px) {
-	
-	#whatsapp {
-		top: 84%;
-		left: 77%;
-	}
-}		
+@media (max-width: 330px) {
+  #whatsapp {
+    top: 84%;
+    left: 77%;
+  }
+}
